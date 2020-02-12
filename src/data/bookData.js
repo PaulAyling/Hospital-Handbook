@@ -7,6 +7,7 @@ const BookData = {
       pageHeader: 'front',
       htmlContent:
         'http://paulayling.me/wp-content/uploads/2019/02/HospitalHandbook-cover.png',
+      image: 'http://paulayling.me/wp-content/uploads/2019/02/HospitalHandbook-cover.png', 
       definePrototypes: '',
       exportComponent: 'export default App;'
     },

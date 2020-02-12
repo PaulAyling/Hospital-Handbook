@@ -7,17 +7,12 @@ export default function(props) {
   const bookData = props.bookData;
   return (
     <Fragment>
-      <PageLeft
-        id='Contents'
-        pageHeader={bookData[1].pageHeader}
+      <PageLeftDivider />
+      <PageRight
+        header={bookData[1].pageHeader}
         pageNumber={bookData[1].id}
         htmlContent={bookData[1].htmlContent}
-      />
-      <PageRight
-        header={bookData[17].pageHeader}
-        pageNumber={bookData[17].id}
-        htmlContent={bookData[17].htmlContent}
-        bookSection={bookData[17].bookSection}
+        bookSection={bookData[1].bookSection}
       />
       <PageLeft
         header={bookData[2].pageHeader}

@@ -1,5 +1,5 @@
 import React from 'react';
-import TabBar from '../molecules/tabbar'
+import TabBar from './tabbar'
 
 export default function(props) {
   const bookData = props.bookData;
