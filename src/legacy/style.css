@@ -1,35 +1,12 @@
-.App {
-  text-align: center;
-  width: 6in;
-  height: 9in;
-  padding: 30px;
-}
-
 body {
   background: rgb(204, 204, 204);
-}
-p{
-  font-size:1.3rem;
 }
 a,
 h1,
 h2,
 p {
   font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-
 }
-li{
-  text-align: left;
-  font-size: 1.5rem;
-}
-
-h1{
-  text-transform: capitalize;
-}
-
-
-
 .text {
   font-size: 1.5rem;
 }
@@ -52,32 +29,17 @@ h1{
 .page {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
 }
 /* PAGE STRUCTURE V2 */
 .page-container-left {
   display: flex;
-  flex-direction:column;
-  justify-content:space-between;
+  flex-direction: column;
   width: 90%;
   margin-left: 1rem;
-  margin-bottom: 0;
-  padding:0;
 }
 header {
   align-items: center;
   justify-content: center;
-}
-footer{
-  margin:0px;
-  padding:0px;
-  align-content:end;
-}
-
-.header-text {
-  margin: 0;
-  font-size: 0.4rem;
 }
 .page-header {
   justify-content: center;
@@ -91,10 +53,6 @@ footer{
 }
 .main-content {
   height: 90%;
-}
-.divider-title{
-  font-size: 5rem;
-
 }
 
 .page-container-right {
@@ -111,11 +69,13 @@ page {
   -moz-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   -o-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-  width: 6in;
-  min-height: 9in;
-  padding: 30px;
 }
 
+page[size='FictionBook'] {
+  width: 6in;
+  height: 9in;
+  padding: 30px;
+}
 .header {
   text-align: center;
   padding-top: 10px;
@@ -139,14 +99,14 @@ main {
   margin-top: 10px;
 }
 .tab {
-  width: 1.1in;
+  width: 1in;
   margin: 40px 0px 0px -35px;
   border-radius: 5px 5px 5px 5px;
   border: black 3px solid;
 
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 .tab > p {
   margin: 0;
@@ -161,45 +121,9 @@ main {
 
 /* COVER */
 
-
 .img-cover {
   width: 6in;
   height: 9in;
-}
-
-.page-content{
-  margin-right:1rem;
-}
-
-/* Page Dividers */
-.page-container-left-divider {
-  display: flex;
-  flex-direction:column;
-  justify-content:space-between;
-  width: 90%;
-  margin-left: 1rem;
-  margin-bottom: 0;
-  padding:0;
-}
-.page-container-right-divider {
-  display: flex;
-  flex-direction:column;
-  justify-content:space-between;
-  width: 90%;
-  margin-left: 1rem;
-  margin-bottom: 0;
-  padding:0;
-}
-.section-header{
-  font-size: 5rem;
-}
-.section-intro-text{
-  font-size:2rem;
-}
-
-/* tabbbar */
-.tabbbar-text{
-  font-size:1rem;
 }
 
 /* CONTENTS PAGE */
@@ -280,7 +204,6 @@ row {
   padding-right: 10px;
   padding-top: 5px;
   background: gray;
-  font-size:0.5rem;
 }
 .content {
   border-bottom: solid black 1px;
@@ -315,51 +238,7 @@ row {
   height: 7in;
 }
 
-/* TIMELINE  */
-h2{
-  color:white;
-  font-family:arial;
-}
-
-.timeline-table{
-  display:flex;
-  flex-direction:row;
-    
-}
-.timeline-column{
-
-}
-.timeline-column-1{
-  width:2in;
-  
-}
-.timeline-column-2{
-  width:100%;
-  
-}
-.timeline-column-3{
-  
-}
-.timeline-column-4{
-  
-}
-.timeline-header-row{
-  background:gray;
-  height:3rem;
-  padding:0.5rem;
-  margin-right:3px;
-}
-.timeline-header-row-left{
-  border-radius:20px 0px 0px 0px ;
-}
-.timeline-row{
-  border-bottom:dotted black 1px;
-  height:3rem;
-  margin-right:3px;
-  border-right:solid gray 1px;
-}
-
-/* DIARY */
+/* DIARY  */
 .container-diary-content {
   border: solid 4px black;
   height: 8in;
@@ -428,9 +307,4 @@ h2{
   margin: 0px;
   padding: 10px;
   text-align: right;
-}
-/* Log */
-.drug-log-headers{
-  font-size:0.8rem;
-  text-align:right;
 }
