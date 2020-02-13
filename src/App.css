@@ -142,7 +142,7 @@ main {
   width: 1.1in;
   margin: 40px 0px 0px -35px;
   border-radius: 5px 5px 5px 5px;
-  border: black 3px solid;
+  border: gray 3px solid;
 
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
@@ -151,14 +151,17 @@ main {
 .tab > p {
   margin: 0;
   padding: 10px;
+  color:lightgray;
 }
 
 .active {
   background: gray;
   color: white;
-  border: gray 3px solid;
+  border: black 3px solid;
 }
-
+.active > p{
+  color:white;
+}
 /* COVER */
 
 
@@ -207,6 +210,9 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+
+
 .content-row {
   display: flex;
   flex-direction: row;
@@ -285,6 +291,7 @@ row {
 .content {
   border-bottom: solid black 1px;
 }
+
 /* UNUSUAL ITEMS */
 .unusual-header-label {
   background: gray;
@@ -313,6 +320,23 @@ row {
   padding: 0 0 0 30px;
   margin: 0;
   height: 7in;
+}
+
+/* DIAGNOSIS */
+.diagnostic-header{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+  width:100%;
+}
+.diagnostic-header-info{
+  background:gray;
+}
+.table-topLeft-header{
+
+}
+.diagnosis-info{
+  width:25%;
 }
 
 /* TIMELINE  */
@@ -410,18 +434,20 @@ h2{
 }
 
 /* DIAGNOSIS  */
-.diagnosis-label-top {
+.table-top-left-header{
   background: gray;
   width: 1.7in;
   height: 100%;
   border-radius: 10px 0 0 0;
   color: white;
+
 }
 .diagnosis-label {
   background: gray;
   width: 1.7in;
   height: 100%;
   color: white;
+
 }
 .diagnosis-label-top > h1,
 .diagnosis-label > h1 {
@@ -434,3 +460,43 @@ h2{
   font-size:0.8rem;
   text-align:right;
 }
+
+.container-log-content {
+  border: solid 4px black;
+  height: 6in;
+  border-radius: 15px;
+}
+/* Diagnosis: Proffesional Diagnosis */
+.short{
+  height:35rem;
+}
+.infobox-container{
+  display:flex;
+  flex-direction:row;
+  border:gray solid 3px;
+  border-radius: 15px;
+}
+.infobox-header-row{
+  display:flex;
+  flex-direction:row;
+  height: 5rem;
+  width:100%;
+}
+.infobox{
+width:25%;
+}
+.infobox-header-left, .infobox-header-right{
+  background:gray;
+  padding-left:1rem;
+}
+.infobox-header-left{
+  border-radius: 12px 0 0 0;
+}
+
+.infobox-header-left-input, .infobox-header-right-input{
+}
+
+.infobox-header-text{
+  color:white;
+}
+

@@ -25,11 +25,25 @@ const IntroData = {
       pageHeader: 'Introduction',
       htmlContent: (
         <section id='content'>
+          <h1 class='section-header'>Hospital Handbook</h1>
+          <p class='section-intro-text'>
+            By Paul Ayling
+          </p>
+  
+        </section>
+      )
+    },
+    {
+      id: '3',
+      bookSection: 'Intro',
+      pageType: 'SectionIntroduction',
+      pageHeader: 'Introduction',
+      htmlContent: (
+        <section id='content'>
           <h1 class='section-header'>Introduction</h1>
           <p class='section-intro-text'>
-            Helping you be sensible when its difficult
+            Being sick can be alot to manage!
           </p>
-          <p>IMAGE HERE OF BOOK FILLED IN</p>
         </section>
       )
     },

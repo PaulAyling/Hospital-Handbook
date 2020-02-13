@@ -16,20 +16,7 @@ export default function(props) {
         htmlContent={bookData[20].htmlContent}
         bookSection={bookData[20].bookSection}
       />
-      <PageLeft
-        header={bookData[20].pageHeader}
-        pageNumber={bookData[20].id}
-        htmlContent={bookData[20].htmlContent}
-        bookSection={bookData[20].bookSection}
-      />
-
-      <PageRight
-        id='Introduction'
-        header={bookData[20].pageHeader}
-        pageNumber={bookData[20].id}
-        htmlContent={bookData[20].htmlContent}
-        bookSection={bookData[20].bookSection}
-      />
+     
     </Fragment>
   );
 }

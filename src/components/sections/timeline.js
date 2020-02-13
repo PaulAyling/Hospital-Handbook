@@ -8,38 +8,39 @@ export default function(props) {
   return (
     <Fragment>
        <PageLeftDivider
-       pageHeader={bookData[18].pageHeader}
       />
       <PageRight
-  header={bookData[18].pageHeader}
-  pageNumber={bookData[18].id}
-  htmlContent={bookData[18].htmlContent}
-  bookSection={bookData[18].bookSection}
+  header={bookData[0].pageHeader}
+  pageNumber={bookData[0].id}
+  htmlContent={bookData[0].htmlContent}
+  bookSection={bookData[0].bookSection}
       />
       <PageLeft
-        pageHeader={bookData[13].pageHeader}
-        pageNumber={bookData[13].id}
-        htmlContent={bookData[13].htmlContent}
-        bookSection={bookData[13].bookSection}
+        pageHeader={bookData[1].pageHeader}
+        pageNumber={bookData[1].id}
+        htmlContent={bookData[1].htmlContent}
+        bookSection={bookData[1].bookSection}
       />
       <PageRight
-        header={bookData[14].pageHeader}
-        pageNumber={bookData[14].id}
-        htmlContent={bookData[14].htmlContent}
-        bookSection={bookData[14].bookSection}
+        header={bookData[2].pageHeader}
+        pageNumber={bookData[2].id}
+        htmlContent={bookData[2].htmlContent}
+        bookSection={bookData[2].bookSection}
+      />
       />
       <PageLeft
-        pageHeader={bookData[13].pageHeader+" - second Page"}
-        pageNumber={bookData[13].id}
-        htmlContent={bookData[13].htmlContent}
-        bookSection={bookData[13].bookSection}
+        pageHeader={bookData[1].pageHeader+' Page 2'}
+        pageNumber={bookData[1].id}
+        htmlContent={bookData[1].htmlContent}
+        bookSection={bookData[1].bookSection}
       />
       <PageRight
-        header={bookData[14].pageHeader}
-        pageNumber={bookData[14].id}
-        htmlContent={bookData[14].htmlContent}
-        bookSection={bookData[14].bookSection}
+        header={bookData[2].pageHeader}
+        pageNumber={bookData[2].id}
+        htmlContent={bookData[2].htmlContent}
+        bookSection={bookData[2].bookSection}
       />
+      
 
     </Fragment>
   );
