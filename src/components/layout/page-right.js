@@ -8,7 +8,7 @@ export default function(props) {
       <div class="page-container-left">
         <header class="page-header"></header>
         <div class="main-content">
-        <p class="header-text">{props.pageHeader}</p>
+        <h1>{props.pageHeader}</h1>
           <section class="page-content" id="content">
             {props.htmlContent}
           </section>

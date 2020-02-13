@@ -197,7 +197,12 @@ main {
   font-size: 5rem;
 }
 .section-intro-text{
-  font-size:2rem;
+  font-size:1.6rem;
+  margin-bottom:0;
+}
+.section-intro-text > p{
+  font-size:1.6rem;
+  margin:0;
 }
 
 /* tabbbar */
@@ -466,37 +471,55 @@ h2{
   height: 6in;
   border-radius: 15px;
 }
+
+
 /* Diagnosis: Proffesional Diagnosis */
 .short{
   height:35rem;
 }
+.full{
+  height:50rem;
+}
 .infobox-container{
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   border:gray solid 3px;
   border-radius: 15px;
 }
-.infobox-header-row{
+.row-inline-headers{
   display:flex;
   flex-direction:row;
-  height: 5rem;
   width:100%;
 }
-.infobox{
-width:25%;
+.row-height-header{
+  min-height:6rem;;
 }
-.infobox-header-left, .infobox-header-right{
+.row-height{
+  min-height:4rem;
+}
+
+.width2{
+width:50%;
+}
+.width4{
+width:7rem;
+min-width:7rem;
+}
+.row-header-left, .row-header{
   background:gray;
   padding-left:1rem;
 }
-.infobox-header-left{
+.row-header-left{
   border-radius: 12px 0 0 0;
 }
 
-.infobox-header-left-input, .infobox-header-right-input{
-}
-
-.infobox-header-text{
+.row-header-text{
   color:white;
 }
+.row-empty{
+  max-height:1rem;
+
+  width:100%;
+}
+
 

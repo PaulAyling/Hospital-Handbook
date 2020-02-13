@@ -7,7 +7,7 @@ export default function(props) {
   const diagnosis = (active === "Diagnosis" )? "active" : "";
   const diary = (active === "Diary" )? "active" : "";
   const timeline = (active === "Timeline" )? "active" : "";
-  const appendix = (active === "Appendix" )? "active" : "";
+  const extra = (active === "Extra" )? "active" : "";
 
 
 
@@ -28,7 +28,7 @@ export default function(props) {
       <div className={"tab rotate "+ diagnosis} >
         <p className="tabbbar-text">Diagnosis</p>
       </div>
-      <div className={"tab rotate "+ appendix} >
+      <div className={"tab rotate "+ extra} >
         <p className="tabbbar-text">Extra</p>
       </div>
     </aside>

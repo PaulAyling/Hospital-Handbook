@@ -7,7 +7,7 @@ export default function(props) {
   const bookData = props.bookData;
   return (
     <Fragment>
-      {/* <PageLeftDivider />
+      <PageLeftDivider />
       <PageRight
         header={bookData[0].pageHeader}
         pageNumber={bookData[0].id}
@@ -66,7 +66,7 @@ export default function(props) {
         pageNumber={bookData[8].id}
         htmlContent={bookData[8].htmlContent}
         bookSection={bookData[8].bookSection}
-      /> */}
+      />
 
       <PageLeft
         id='Contents'
@@ -75,13 +75,13 @@ export default function(props) {
         htmlContent={bookData[9].htmlContent}
       />
 
-      {/* <PageRight
+      <PageRight
         id='Introduction'
         header={bookData[10].pageHeader}
         pageNumber={bookData[10].id}
         htmlContent={bookData[10].htmlContent}
         bookSection={bookData[10].bookSection}
-      /> */}
+      /> 
     </Fragment>
   );
 }

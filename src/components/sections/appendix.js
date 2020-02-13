@@ -8,13 +8,12 @@ export default function(props) {
   return (
     <Fragment>
 <PageLeftDivider
-       pageHeader={bookData[19].pageHeader}
       />
       <PageRight
-        header={bookData[20].pageHeader}
-        pageNumber={bookData[20].id}
-        htmlContent={bookData[20].htmlContent}
-        bookSection={bookData[20].bookSection}
+        header={bookData[0].pageHeader}
+        pageNumber={bookData[0].id}
+        htmlContent={bookData[0].htmlContent}
+        bookSection={bookData[0].bookSection}
       />
      
     </Fragment>

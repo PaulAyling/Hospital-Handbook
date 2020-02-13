@@ -578,22 +578,55 @@ const DiagnosisData = {
       htmlContent: (
         <section id='content' class='contents-table'>
           <p>
-            Here is where you document the diagnosis. Often as time goes on
-            diagnosis will change for new diagnosis update a new page.
+            Here is where you document the diagnosis. Often diagnosis will
+            change over time, for new diagnosis update a new page.
           </p>
           <div class='infobox-container short'>
-            <row class='infobox-header-row'>
-              <div className='infobox infobox-header-left'>
-                <p className='infobox-header-text'>Name of Diagnoser</p>
+            <row class='row-inline-headers row-height-header'>
+              <div className='width4 row-header-left'>
+                <p className='row-header-text'>Name of Diagnoser</p>
               </div>
-              <div className='infobox infobox-header-left-input'>
-                <p className='infobox infobox-header-text'>n</p>
+              <div className='width4 row-header-left-input'>
+                <p className=' row-header-text'>n</p>
               </div>
-              <div className='infobox infobox-header-right'>
-                <p className='infobox-header-text'>Diagnostic Date</p>
+              <div className='width4 row-header'>
+                <p className='row-header-text'>Diagnostic Date</p>
               </div>
-              <div className='infobox-header-left-input'>
-                <p className='infobox infobox-header-text'>Diagnostic Name</p>
+              <div className='width4-header-left-input'>
+                <p className='infobox row-header-text'>Diagnostic Name</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Symptoms</p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Caused By</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Symptoms</p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Caused By</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Symptoms</p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Caused By</p>
               </div>
             </row>
           </div>
@@ -607,23 +640,76 @@ const DiagnosisData = {
       pageName: 'logUnusualActivities',
       htmlContent: (
         <section id='content' class='contents-table'>
-          <p>
-            Here is where you document the diagnosis. Often as time goes on
-            diagnosis will change for new diagnosis update a new page.
-          </p>
-          <div class='container-log-content'>
-            <header class='diary-header-container'>
-              <div class='unusual-header-label'>
-                <h2>Unusual activities, places etc</h2>
+          <div class='infobox-container full'>
+            <row class='row-inline-headers row-height-header'>
+              <div className='width4 row-header-left'>
+                <p className='row-header-text'>Name of Diagnoser</p>
               </div>
-            </header>
-            <div class='lined-row'></div>
-            <div class='lined-row'></div>
-            <div class='lined-row'></div>
-            <div class='lined-row'></div>
-            <div class='lined-row'></div>
-            <div class='lined-row'></div>
-            <div class='lined-row'></div>
+              <div className='width4 row-header-left-input'>
+                <p className=' row-header-text'>n</p>
+              </div>
+              <div className='width4 row-header'>
+                <p className='row-header-text'>Diagnostic Date</p>
+              </div>
+              <div className='width4-header-left-input'>
+                <p className='infobox row-header-text'>Diagnostic Name</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Symptoms</p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Caused By</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Symptoms</p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Caused By</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Symptoms</p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Caused By</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Symptoms</p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Caused By</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Symptoms</p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Caused By</p>
+              </div>
+            </row>
           </div>
         </section>
       )

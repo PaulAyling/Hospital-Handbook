@@ -8,6 +8,7 @@ import Day1Data from '../src/data/day1Data';
 import DiaryData from '../src/data/diaryData';
 import TimelineData from '../src/data/timelineData';
 import DiagnosisData from '../src/data/diagnosisData';
+import ExtraData from '../src/data/extraData';
 
 import Prequel from './components/sections/prequel';
 import Intro from './components/sections/intro';
@@ -25,16 +26,17 @@ function App() {
   const diaryData = DiaryData.data;
   const timelineData = TimelineData.data;
   const diagnosisData = DiagnosisData.data;
+  const extraData = ExtraData.data;
 
   return (
     <div className='App'>
-      {/* <Prequel bookData={prequel} />
+      <Prequel bookData={prequel} />
       <Intro bookData={introData} />
       <Day1 bookData={day1Data} />
       <Diary bookData={diaryData} />
-      <Timeline bookData={timelineData} /> */}
+      <Timeline bookData={timelineData} />
       <Diagnosis bookData={diagnosisData} />
-      {/* <Appendix bookData={bookData} /> */}
+      <Appendix bookData={extraData} />
     </div>
   );
 }
