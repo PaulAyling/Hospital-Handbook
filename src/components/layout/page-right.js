@@ -1,5 +1,6 @@
 import React from 'react';
 import TabBar from './tabbar'
+import Footer from './footer.js'
 
 export default function(props) {
   const bookData = props.bookData;
@@ -13,9 +14,7 @@ export default function(props) {
             {props.htmlContent}
           </section>
         </div>  
-        <footer>
-        <p>Page {props.pageNumber}</p>
-        </footer>
+        <Footer pageStart={props.pageStart}/>
       </div>
       <div class="page-container-right">
        <TabBar bookSection={props.bookSection}/>

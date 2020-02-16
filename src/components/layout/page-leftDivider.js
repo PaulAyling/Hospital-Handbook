@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './footer.js'
 
 export default function(props) {
   return (
@@ -13,9 +14,7 @@ export default function(props) {
           {props.header }
           </section>
         </div>
-        <footer>
-          Page {props.pageNumber}
-        </footer>
+        <Footer pageStart={props.pageStart}/>
       </div>
 
     </page>

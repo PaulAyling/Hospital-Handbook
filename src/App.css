@@ -19,15 +19,26 @@ p {
   text-align: left;
 
 }
+.text-align-right{
+  text-align: right
+}
 li{
   text-align: left;
   font-size: 1.5rem;
 }
 
+.noBullet-list-item{
+  list-style:none;
+}
+
 h1{
   text-transform: capitalize;
 }
-
+.row-2{
+  display:flex;
+  justify-content: space-between;
+  width:100%;
+}
 
 
 .text {
@@ -55,6 +66,10 @@ h1{
   justify-content: space-between;
 
 }
+.container-contents{
+  margin:2rem;
+}
+
 /* PAGE STRUCTURE V2 */
 .page-container-left {
   display: flex;
@@ -211,22 +226,9 @@ main {
 }
 
 /* CONTENTS PAGE */
-.contents-table {
-  display: flex;
-  flex-direction: column;
-}
+.contents-item{
+height: 4rem;
 
-
-
-.content-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.content-row-left {
-  width: 40px;
-}
-.content-row-middle {
 }
 
 /*  SYMPTOMS BOX */
@@ -240,7 +242,7 @@ main {
   display: flex;
   flex-direction: row;
   border: solid black 2px;
-  height: 1.8in;
+  height: 1.75in;
   width: 4.5in;
   border-radius: 15px;
 }
@@ -282,15 +284,15 @@ row {
   text-align: right;
   margin: 0;
   font-weight: 700;
-  color: white;
+  color: black;
   padding-top: 3px;
 }
 .label-details,
 .label {
-  width: 1in;
+  width: 1.2in;
   padding-right: 10px;
   padding-top: 5px;
-  background: gray;
+  background: lightgray;
   font-size:0.5rem;
 }
 .content {
@@ -391,7 +393,7 @@ h2{
 /* DIARY */
 .container-diary-content {
   border: solid 4px black;
-  height: 8in;
+  height: 7.4in;
   border-radius: 15px;
 }
 .diary-header-container {
@@ -477,8 +479,11 @@ h2{
 .short{
   height:35rem;
 }
+.hieght-with-title{
+  height:40rem;
+}
 .full{
-  height:50rem;
+  height:43rem;
 }
 .infobox-container{
   display:flex;
@@ -497,7 +502,9 @@ h2{
 .row-height{
   min-height:4rem;
 }
-
+.text-small{
+  font-size:1.4rem;
+}
 .width2{
 width:50%;
 }
@@ -506,7 +513,7 @@ width:7rem;
 min-width:7rem;
 }
 .row-header-left, .row-header{
-  background:gray;
+  background:lightgray;
   padding-left:1rem;
 }
 .row-header-left{
@@ -514,7 +521,9 @@ min-width:7rem;
 }
 
 .row-header-text{
-  color:white;
+  color:black;
+  margin:6px;
+  font-size:0.8rem;
 }
 .row-empty{
   max-height:1rem;

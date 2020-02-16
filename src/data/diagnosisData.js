@@ -282,7 +282,7 @@ const DiagnosisData = {
       )
     },
     {
-      id: '5',
+      id: '6',
       bookSection: 'Diagnosis',
       pageHeader: 'Diagnosis: Events Log',
       pageName: 'logUnusualActivities',
@@ -310,7 +310,7 @@ const DiagnosisData = {
       )
     },
     {
-      id: '6',
+      id: '7',
       bookSection: 'Diagnosis',
       pageHeader: '',
       pageName: 'logUnusualActivities',
@@ -331,14 +331,14 @@ const DiagnosisData = {
             <div class='lined-row'></div>
             <div class='lined-row'></div>
             <div class='lined-row'></div>
-            <div class='lined-row'></div>
-            <div class='lined-row'></div>
+       
+
           </div>
         </section>
       )
     },
     {
-      id: '7',
+      id: '8',
       bookSection: 'Diagnosis',
       pageHeader: 'Diagnosis: Drug Log',
       htmlContent: (
@@ -455,7 +455,7 @@ const DiagnosisData = {
       )
     },
     {
-      id: '8',
+      id:'9',
       bookSection: 'Diagnosis',
       pageHeader: '',
       htmlContent: (
@@ -572,7 +572,7 @@ const DiagnosisData = {
       )
     },
     {
-      id: '9',
+      id: '10',
       bookSection: 'Diagnosis',
       pageHeader: 'Diagnosis: Diagnosis Log',
       htmlContent: (
@@ -587,13 +587,13 @@ const DiagnosisData = {
                 <p className='row-header-text'>Name of Diagnoser</p>
               </div>
               <div className='width4 row-header-left-input'>
-                <p className=' row-header-text'>n</p>
+      
               </div>
               <div className='width4 row-header'>
                 <p className='row-header-text'>Diagnostic Date</p>
               </div>
-              <div className='width4-header-left-input'>
-                <p className='infobox row-header-text'>Diagnostic Name</p>
+              <div className='width4 row-header-left-input'>
+            
               </div>
             </row>
             <row className='row-empty'></row>
@@ -634,7 +634,7 @@ const DiagnosisData = {
       )
     },
     {
-      id: '10',
+      id: '11',
       bookSection: 'Diagnosis',
       pageHeader: 'Diagnosis: Events Log',
       pageName: 'logUnusualActivities',
@@ -646,13 +646,12 @@ const DiagnosisData = {
                 <p className='row-header-text'>Name of Diagnoser</p>
               </div>
               <div className='width4 row-header-left-input'>
-                <p className=' row-header-text'>n</p>
               </div>
               <div className='width4 row-header'>
                 <p className='row-header-text'>Diagnostic Date</p>
               </div>
-              <div className='width4-header-left-input'>
-                <p className='infobox row-header-text'>Diagnostic Name</p>
+              <div className='width4 row-header-left-input'>
+    
               </div>
             </row>
             <row className='row-empty'></row>
@@ -700,16 +699,8 @@ const DiagnosisData = {
               </div>
             </row>
             <row className='row-empty'></row>
-            <row className='row-inline-headers row-height'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'>Symptoms</p>
-              </div>
-            </row>
-            <row className='row-inline-headers row-height'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'>Caused By</p>
-              </div>
-            </row>
+            
+       
           </div>
         </section>
       )

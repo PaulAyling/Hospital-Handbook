@@ -4,38 +4,6 @@ const IntroData = {
     {
       id: '1',
       bookSection: 'Intro',
-      pageHeader: 'Contents',
-      htmlContent: (
-        <div class='content-row'>
-          <div class='content-row-left'>
-            <h1>1</h1>
-          </div>
-          <div class='content-row-middle'>
-            <p>
-              ................................................................................................
-            </p>
-          </div>
-        </div>
-      )
-    },
-    {
-      id: '2',
-      bookSection: 'Intro',
-      pageType: 'SectionIntroduction',
-      pageHeader: 'Introduction',
-      htmlContent: (
-        <section id='content'>
-          <h1 class='section-header'>Hospital Handbook</h1>
-          <p class='section-intro-text'>
-            By Paul Ayling
-          </p>
-  
-        </section>
-      )
-    },
-    {
-      id: '3',
-      bookSection: 'Intro',
       pageType: 'SectionIntroduction',
       pageHeader: 'Introduction',
       htmlContent: (
@@ -48,21 +16,35 @@ const IntroData = {
       )
     },
     {
-      id: '3',
+      id: '2',
       bookSection: 'Intro',
-      pageHeader: 'Introduction',
+      pageHeader: 'Background',
       htmlContent: (
         <article id='Introduction'>
-          <h1>Why this book?</h1>
-          <p>My story here</p>
-
-          <h1>How to use this book</h1>
+        <h1>It started in an Ambulance in Thailand... </h1>
           <p>
-            This book is intended to make the task of managing you stay in
-            hospital easier. I have taken the key parts to my stay and set this
-            book out to allow you to capture everything you need to so you can
-            have sensible conversations with medical practitioners.
-          </p>
+          Recently I found myself in an ambulance travelling across the country in Thailand with a suspected heart attack. This was just the beginning of a journey which took me to three hospitals in three countries. At the same time my uncle was about to be released from hospital with a dangerous condition that only through his management of the situation was prevented.</p>
+
+          <p>I was expecting to feel sick and sometimes scared but was not prepared for the admininstration I would need to do to ensure that my stay was effective. After speaking with my uncle and others I could see that the problems I experienced were shared by many. I thought if I could help solve some of these I could help a lot of people </p>
+
+          <p>My time in hospital was difficult but eventually I started to figure things out and get organized as I progressed setting things up and getting organized and managing things started to become much easier. I realized if there was a way of helping people
+         To make it easier it has to be really easy to use so the aim of this book is to be extreemly straightforeward to use to make it easy for you to do the right thing. </p>
+
+        </article>
+      )
+    },
+    {
+      id: '3',
+      bookSection: 'Intro',
+      pageHeader: 'About the Book',
+      htmlContent: (
+        <article id='Introduction'>
+               <h1>The Purpose of this book</h1>
+          <p>The purpose of this book is to reduce the amount of things you need to remember or manage when you are in hospital so you can focus on rest whilst feeling your recovery is moving in the right direction.</p>
+<h1>What is this book?</h1>
+<p>It is an organizer designed to allow you to better manage your time in hospital. The design is based on my experience and with feedback from patients and healthcare professionals. If you follow it through you it will lighten the mental load during this time and be more confident that you are doing what you can to help and understand the the medical professionals whilst making your stay as pleasant as you can.</p>
+<h1>What is it not?</h1>
+<p>Although there is some information in the book it is primarily not an information source, it is not a guide to private health care or a medical document.</p>
         </article>
       )
     }

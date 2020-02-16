@@ -51,8 +51,8 @@ const Day1Data = {
       
           <section id='content' class='contents-table'>
           <p>If you get asked asked form information afterwards just fill in them in so you don't have to think about it any more.</p>
-          <div class='infobox-container full'>
-            <row class='row-inline-headers row-height-header'>
+          <div class='infobox-container short'>
+            <row class='row-inline-headers row-height'>
               <div className='width4 row-header-left'>
                 <p className='row-header-text'>Hospital#</p>
               </div>
@@ -64,35 +64,35 @@ const Day1Data = {
             <row className='row-empty'></row>
             <row className='row-inline-headers row-height-header'>
               <div className='row-header'>
-                <p className='width4 row-header-text'>Pre-exisiting conditions</p>
+                <p className='width4 row-header-text'>Exisiting conditions</p>
               </div>
             </row>
             <row className='row-empty'></row>
-            <row className='row-inline-headers row-height-header'>
+            <row className='row-inline-headers row-height'>
               <div className='row-header'>
-                <p className='width4 row-header-text'>Medical insurance details</p>
+                <p className='width4 row-header-text'>Insurance details</p>
               </div>
             </row>
             <row className='row-empty'></row>
-            <row className='row-inline-headers row-height-header'>
+            <row className='row-inline-headers row-height'>
               <div className='row-header'>
                 <p className='width4 row-header-text'>Next of Kin </p>
               </div>
             </row>
             <row className='row-empty'></row>
-            <row className='row-inline-headers row-height-header'>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header'>
+                <p className='width4 row-header-text'>Hospital Ward Contact Details</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
               <div className='row-header'>
                 <p className='width4 row-header-text'></p>
               </div>
             </row>
             <row className='row-empty'></row>
-            <row className='row-inline-headers row-height-header'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'></p>
-              </div>
-            </row>
-            <row className='row-empty'></row>
-            <row className='row-inline-headers row-height-header'>
+            <row className='row-inline-headers row-height'>
               <div className='row-header'>
                 <p className='width4 row-header-text'></p>
               </div>
@@ -104,62 +104,87 @@ const Day1Data = {
       )
     },
     {
-      id: '3',
-      bookSection: 'Day1',
-      pageHeader: 'Day1: Item Checklist',
-      pageName: 'sectionDivider',
-      htmlContent: (
-      
-          <section id='content' class='contents-table'>
-          
-          <h1>About the checklist</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ullam, dignissimos obcaecati blanditiis voluptas placeat consectetur quaerat distinctio soluta. Nihil fugiat, ab, vel quos qui culpa, adipisci fuga incidunt quam iure quibusdam esse. Odit, in? Amet aspernatur assumenda itaque ad quos debitis ipsam vero aliquid nulla, veniam eius impedit reiciendis ea qui magni pariatur autem cum rerum suscipit dignissimos omnis quisquam molestiae accusantium eos! Quisquam, aliquid voluptatum perferendis repellat nostrum aliquam aspernatur ea perspiciatis, molestiae animi dolore quo tempore, veritatis repellendus facere ipsa sunt ipsam facilis asperiores magni eum officiis sequi laborum quod. Vero, natus temporibus. Velit fuga, dolor est non, ut eligendi laborum blanditiis ipsum dolore officia vero natus iure placeat eius amet reiciendis mollitia incidunt unde quae et? Maiores, sit cumque molestiae totam officiis aperiam eum ab, maxime eveniet veritatis adipisci, placeat consequuntur inventore minima natus! Labore, ad quo. Amet eum, harum, obcaecati nostrum maxime reprehenderit quidem, laboriosam blanditiis sint quod ut. Enim ex beatae cupiditate facere temporibus, quo in lm </p>
-       
-        </section>
-      )
-    },
-    {
       id: '4',
       bookSection: 'Day1',
-      pageHeader: 'Day1: Item Checklist',
+      pageHeader: 'Day1: Getting Help',
       pageName: 'sectionDivider',
       htmlContent: (
       
           <section id='content' class='contents-table'>
+<p>When in hospital there are two tasks that can become quite difficult below are some suggestions that I hope will make them both easier.</p>
+<ul>
+<li className="text-small">Providing updates with concerned relatives and family</li>
+<li className="text-small">Support when you talk to doctors</li>
+</ul>
 
+<h1>Communication with concerned relatives and family</h1>
+<p>You probably have some people that are concerned about how you are getting on in hospital. </p>
+<p>Providing updates on your condition can be hard work and if your updates are unclear or not correct it can lead to a lot of extra time and stress clarifying things. For everyones well being it is important that this is done quickly and effectively.</p>
+
+<p>The best way of dproviding updates is a group text, email or whatsapp message sent out daily. If you do this you should let at least one person know how they can contact the hospital ward directly to get updates if you are unnavailable</p>
+
+<p>A better way, if you can, is to have someone else communicate with you and if necessary the hospital and write an update daily and send it out on your behalf. </p>
+
+<h1>Support when you talk to doctors</h1>
+
+<p><strong>From friends or family: </strong>
+If you use the "Doctors meetings Notes" in the book that should help a great deal to amle the meeting more productive and less stressfull. On some occasions though if the meeting is important it can be helpful if to have someone to attend these meetings with you to take notes and ask questions. This can be done in person or by the phone. That person could be a friend or family or a proffessional "patient advocate"</p>
+
+<p><strong>From a patients advocate:</strong>
+If you can't get a friend or family to help you can often get patients advocates which are often retired doctors or nurses that can help you to understand the doctor and ask questions on your behalf. Depending on where you are they may be offered for free or be hired privately.</p>
         </section>
       )
     },
     {
       id: '5',
       bookSection: 'Day1',
-      pageHeader:  'Day1: Create A Team',
+      pageHeader: 'Day1: Item Checklist',
       pageName: 'sectionDivider',
       htmlContent: (
       
           <section id='content' class='contents-table'>
+          <p>A few items that could help you stay</p>
+<ul>
+  <li>Electrical Items
+    <ul>
+    <li>Phone</li>
+  <li>Phone Charger</li>
+  <li>Laptop or ipad</li>
+    </ul>
+  </li>
+  <li>Get better sleep
+    <ul>
+    <li>Facemask</li>
+  <li>earplugs</li>
+    </ul>
+  </li>
+  <li>Bring some clothes
+    <ul>
+    <li>loose fitting underwear</li>
+  <li>tshirts</li>
+  <li>track suit boottoms</li>
+    </ul>
+  </li>
+  <li>Some food
+    <ul>
+    <li>cerieal bars</li>
+  <li>chocolate</li>
+    </ul>
+  </li>
+  <li>Stationary
+    <ul>
+    <li>Pen</li>
+  <li>Paper</li>
+    </ul>
+  </li>
+  
 
-<p>Some stuff here about your team</p>       
-<h1>Problems</h1>
-<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, obcaecati eos magnam incidunt quia quisquam aspernatur. Esse adipisci illo porro odit? Rem cupiditate tenetur ea. Excepturi eos aliquid numquam a tempore cupiditate deleniti maxime. Placeat doloribus incidunt, minus tempora porro impedit sapiente ullam maiores.</p>
-<h1>A Solution is at hand</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore quas fugiat perspiciatis nam rerum at nisi quia esse, dolor autem maxime quaerat minima illo? Iure maiores rem molestias tenetur ad in porro nisi numquam aliquid, quaerat nihil explicabo, repellendus sequi illo praesentium beatae harum expedita! Est esse cum necessitatibus.</p>
+  </ul>
         </section>
       )
-    },
-    {
-      id: '6',
-      bookSection: 'Day1',
-      pageHeader: 'Day1: Create A Team',
-      pageName: 'sectionDivider',
-      htmlContent: (
-      
-          <section id='content' class='contents-table'>
+    }
+   
 
-       <p>MOre stuff here</p>
-        </section>
-      )
-    },
   ]
 };
 

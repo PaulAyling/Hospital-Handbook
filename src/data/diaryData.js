@@ -2,23 +2,34 @@ import React, { Component } from 'react';
 const DairyData = {
   data: [
     {
-      id: '17',
-      bookSection: 'Diary',
-      pageHeader: 'Diary',
+      id: '1',
+      bookSection: 'Daily Diary',
+      pageHeader: 'Daily Diary',
       htmlContent: (
         <section id='content'>
-          <h1 class='section-header'>Diary</h1>
+          <h1 class='section-header'>Daily Diary</h1>
           <p class='section-intro-text'>
-            Use this section to record your recovery, day by day
+            This section can accomodate 30 days of diary notes and doctors meetings
           </p>
-          <p>IMAGE HERE OF BOOK FILLED IN</p>
+          <h1>About doctor meetings in hospital</h1>
+          <p>
+            In hospital it is common for doctors to see you just once in the day
+            as part of their “round”.{' '}
+          </p>
+          <p>
+            For this reason if you have concerns you want answered it can be
+            very helpful to know what you are going to say before you see the doctor 
+            and have somewhere to write down the answers so you don’t forget
+            them.
+          </p>
+          <p>PLACHOLDER FOR IMAGE OF DIARY</p>
         </section>
       )
     },
     {
-      id: '8',
+      id: '2',
       bookSection: 'Diary',
-      pageHeader: 'DIARY BY DAY',
+      pageHeader: 'Daily Diary Notes',
       htmlContent: (
         <section id='content' class='contents-table'>
           <div class='container-diary-content'>
@@ -36,15 +47,14 @@ const DairyData = {
             <div class='lined-row'></div>
             <div class='lined-row'></div>
             <div class='lined-row'></div>
-            <div class='lined-row'></div>
           </div>
         </section>
       )
     },
     {
-      id: '9',
+      id: '3',
       bookSection: 'Diary',
-      pageHeader: 'Doctor Notes',
+      pageHeader: 'Doctor Meeting Notes',
       htmlContent: (
         <section id='content'>
           <div class='container-meeting'>
@@ -72,7 +82,6 @@ const DairyData = {
         </section>
       )
     }
-    
   ]
 };
 

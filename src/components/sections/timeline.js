@@ -5,43 +5,43 @@ import PageLeftDivider from '../layout/page-leftDivider'
 
 export default function(props) {
   const bookData = props.bookData;
+  const pageStart = props.pageStart;
+
   return (
     <Fragment>
-       <PageLeftDivider
+
+<PageLeftDivider pageStart={pageStart}
       />
       <PageRight
+            pageStart={parseInt(pageStart)+parseInt(bookData[0].id)}
   header={bookData[0].pageHeader}
-  pageNumber={bookData[0].id}
   htmlContent={bookData[0].htmlContent}
   bookSection={bookData[0].bookSection}
       />
       <PageLeft
+            pageStart={parseInt(pageStart)+parseInt(bookData[1].id)}
         pageHeader={bookData[1].pageHeader}
-        pageNumber={bookData[1].id}
         htmlContent={bookData[1].htmlContent}
         bookSection={bookData[1].bookSection}
       />
       <PageRight
+            pageStart={parseInt(pageStart)+parseInt(bookData[2].id)}
         header={bookData[2].pageHeader}
-        pageNumber={bookData[2].id}
         htmlContent={bookData[2].htmlContent}
         bookSection={bookData[2].bookSection}
-      />
       />
       <PageLeft
-        pageHeader={bookData[1].pageHeader+' Page 2'}
-        pageNumber={bookData[1].id}
-        htmlContent={bookData[1].htmlContent}
-        bookSection={bookData[1].bookSection}
+            pageStart={parseInt(pageStart)+parseInt(bookData[3].id)}
+        pageHeader={bookData[3].pageHeader+' Page 2'}
+        htmlContent={bookData[3].htmlContent}
+        bookSection={bookData[3].bookSection}
       />
       <PageRight
-        header={bookData[2].pageHeader}
-        pageNumber={bookData[2].id}
-        htmlContent={bookData[2].htmlContent}
-        bookSection={bookData[2].bookSection}
+            pageStart={parseInt(pageStart)+parseInt(bookData[4].id)}
+        header={bookData[4].pageHeader}
+        htmlContent={bookData[4].htmlContent}
+        bookSection={bookData[4].bookSection}
       />
-      
-
     </Fragment>
   );
 }

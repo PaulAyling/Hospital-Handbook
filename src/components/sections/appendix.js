@@ -5,13 +5,14 @@ import PageLeftDivider from '../layout/page-leftDivider';
 
 export default function(props) {
   const bookData = props.bookData;
+  const pageStart = props.pageStart
   return (
     <Fragment>
-<PageLeftDivider
+<PageLeftDivider pageStart={pageStart}
       />
       <PageRight
+       pageStart={parseInt(pageStart)+parseInt(bookData[0].id)}
         header={bookData[0].pageHeader}
-        pageNumber={bookData[0].id}
         htmlContent={bookData[0].htmlContent}
         bookSection={bookData[0].bookSection}
       />
