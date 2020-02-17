@@ -526,7 +526,8 @@ min-width:7rem;
 .row-header-text{
   color:black;
   margin:6px;
-  font-size:0.8rem;
+  font-size:1rem;
+  padding:3px;
 }
 .row-empty{
   max-height:1rem;

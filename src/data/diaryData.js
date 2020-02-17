@@ -11,6 +11,8 @@ const DairyData = {
           <p class='section-intro-text'>
             This section can accomodate 30 days of diary notes and doctors meetings
           </p>
+          <h1>About the Daily Diary</h1>
+          <p>Write todays date in the top right and make notes on anything you feel is relavant. It could be useful later for you to gain perspective on your experience and help should there be difficulties in treatment or diagnosis.</p>
           <h1>About doctor meetings in hospital</h1>
           <p>
             In hospital it is common for doctors to see you just once in the day
@@ -22,7 +24,7 @@ const DairyData = {
             and have somewhere to write down the answers so you don’t forget
             them.
           </p>
-          <p>PLACHOLDER FOR IMAGE OF DIARY</p>
+
         </section>
       )
     },

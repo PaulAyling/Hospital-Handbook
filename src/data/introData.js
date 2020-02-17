@@ -25,7 +25,7 @@ const IntroData = {
           <p>
           Recently I found myself in an ambulance travelling across  Thailand with a suspected heart attack. This was just the beginning of a journey which took me to three hospitals in three countries. At the same time my uncle was about to be released from hospital with a dangerous condition that only through his management of the situation was prevented.</p>
 
-          <p>I was prepared to feel sick and scared about my illness in hospital but was not prepared for a host of other difficulties I would experience. After speaking with my uncle and others I could see that the problems I experienced were shared by many. </p>
+          <p>I was prepared to feel sick and scared about my illness but was not prepared for a host of other difficulties I would experience while in hospital. After speaking with my uncle and others I could see that the problems I experienced were shared by many. </p>
 
 <p>The last thing I wanted to do was think through problems and create solutions while I was in hospital but eventually I started to figure things out and get organised, as I progressed in setting up systems and managing things management of my stay became much easier.</p>
 

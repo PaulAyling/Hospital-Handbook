@@ -27,13 +27,13 @@ const Day1Data = {
            
           </p>
           <h1>
-            1. Record Basic Information
+            1. Bring or get some items
+          </h1>
+<p>Some items can make your stay <strong>alot</strong> more bearable in this book there is a checklist of I and others have found useful during our stay.</p>
+          <h1>
+            2. Record Basic Information
           </h1>
 <p>At hospital you can be asked the same questions over and over. It will make it easier if you log common answers to some common questions here.</p>
-          <h1>
-            2. Bring or get some items
-          </h1>
-<p>Some items can make your stay <strong>Alot</strong> more bearable in this book there is a checklist of reccomended items you can bring or have brought for you</p>
           <h1>
             3. Get Help vs DIY
           </h1>
@@ -44,99 +44,6 @@ const Day1Data = {
     },
     {
       id: '3',
-      bookSection: 'Day1',
-      pageHeader: 'Day1: Record Basic Information',
-      pageName: 'sectionDivider',
-      htmlContent: (
-      
-          <section id='content' class='contents-table'>
-          <p>If you are asked for information, just go to this book afterwards and fill it in. That way you won't have to do it again.</p>
-          <div class='infobox-container short'>
-            <row class='row-inline-headers row-height'>
-              <div className='width4 row-header-left'>
-                <p className='row-header-text'>Hospital#</p>
-              </div>
-              <div className='width4 row-header-left-input'>
-                <p className=' row-header-text'></p>
-              </div>
-              
-            </row>
-            <row className='row-empty'></row>
-            <row className='row-inline-headers row-height-header'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'>Exisiting conditions</p>
-              </div>
-            </row>
-            <row className='row-empty'></row>
-            <row className='row-inline-headers row-height'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'>Insurance details</p>
-              </div>
-            </row>
-            <row className='row-empty'></row>
-            <row className='row-inline-headers row-height'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'>Next of Kin </p>
-              </div>
-            </row>
-            <row className='row-empty'></row>
-            <row className='row-inline-headers row-height'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'>Hospital Ward Contact Details</p>
-              </div>
-            </row>
-            <row className='row-empty'></row>
-            <row className='row-inline-headers row-height'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'></p>
-              </div>
-            </row>
-            <row className='row-empty'></row>
-            <row className='row-inline-headers row-height'>
-              <div className='row-header'>
-                <p className='width4 row-header-text'></p>
-              </div>
-            </row>
-           
-          </div>
-       
-        </section>
-      )
-    },
-    {
-      id: '4',
-      bookSection: 'Day1',
-      pageHeader: 'Day1: Getting Help',
-      pageName: 'sectionDivider',
-      htmlContent: (
-      
-          <section id='content' class='contents-table'>
-<p>When in hospital there are two tasks that can become quite difficult below are some suggestions that I hope will make them both easier.</p>
-<ul>
-<li className="text-small">Providing updates with concerned relatives and family</li>
-<li className="text-small">Support when you talk to doctors</li>
-</ul>
-
-<h1>Communication with concerned relatives and family</h1>
-<p>You probably have some people that are concerned about how you are getting on in hospital. </p>
-<p>Providing updates on your condition can be hard work and if your updates are unclear or not correct it can lead to a lot of extra time and stress clarifying things. For everyones well being it is important that this is done quickly and effectively.</p>
-
-<p>The best way of dproviding updates is a group text, email or whatsapp message sent out daily. If you do this you should let at least one person know how they can contact the hospital ward directly to get updates if you are unnavailable</p>
-
-<p>A better way, if you can, is to have someone else communicate with you and if necessary the hospital and write an update daily and send it out on your behalf. </p>
-
-<h1>Support when you talk to doctors</h1>
-
-<p><strong>From friends or family: </strong>
-If you use the "Doctors meetings Notes" in the book that should help a great deal to amle the meeting more productive and less stressfull. On some occasions though if the meeting is important it can be helpful if to have someone to attend these meetings with you to take notes and ask questions. This can be done in person or by the phone. That person could be a friend or family or a proffessional "patient advocate"</p>
-
-<p><strong>From a patients advocate:</strong>
-If you can't get a friend or family to help you can often get patients advocates which are often retired doctors or nurses that can help you to understand the doctor and ask questions on your behalf. Depending on where you are they may be offered for free or be hired privately.</p>
-        </section>
-      )
-    },
-    {
-      id: '5',
       bookSection: 'Day1',
       pageHeader: 'Day1: Item Checklist',
       pageName: 'sectionDivider',
@@ -182,7 +89,199 @@ If you can't get a friend or family to help you can often get patients advocates
   </ul>
         </section>
       )
-    }
+    },
+
+
+
+
+
+
+
+    {
+      id: '4',
+      bookSection: 'Day1',
+      pageHeader: 'Day1: Record Basic Information',
+      pageName: 'sectionDivider',
+      htmlContent: (
+      
+          <section id='content' class='contents-table'>
+          <p>If you are asked for information, just go to this book afterwards and fill it in. That way you won't have to do it again.</p>
+          <div class=''>
+            <row class='row-inline-headers row-height'>
+              <div className='width2 row-header-left'>
+                <p className='row-header-text'>Hospital#</p>
+              </div>
+              <div className='width2 row-header-left-input'>
+                <p className=' row-header-text'></p>
+              </div>
+              
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height-header'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'>Exisiting conditions</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'>Insurance details</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'>Next of Kin </p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'>Hospital Ward Contact Details</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'>Wifi password and username for ward</p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+           
+          </div>
+       
+        </section>
+      )
+    },
+    {
+      id: '5',
+      bookSection: 'Day1',
+      pageHeader: 'More',
+      pageName: 'sectionDivider',
+      htmlContent: (
+      
+          <section id='content' class='contents-table'>
+          <div class=''>
+           
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className='row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+ 
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+ 
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+ 
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+ 
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+ 
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+ 
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-empty'></row>
+ 
+            <row className='row-inline-headers row-height'>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+     
+ 
+
+            
+           
+          </div>
+       
+        </section>
+      )
+    },
+    {
+      id: '6',
+      bookSection: 'Day1',
+      pageHeader: 'Day1: Getting Help',
+      pageName: 'sectionDivider',
+      htmlContent: (
+      
+          <section id='content' class='contents-table'>
+<p>During your stay there are two key tasks you will have to manage.</p>
+
+<h1>Updates with relatives and family</h1>
+<p>Providing updates on your condition can be hard work and if you are unclear or incorrect it can lead to a lot of extra time and stress clarifying things. For everyones well being it is important that this is done quickly and effectively.</p>
+
+<p>The best way of providing updates is a group text, email or whatsapp message sent out daily. You should also let at least one person know how they can contact the hospital ward directly to get updates if you are unavailable.</p>
+
+<p>A better way, if you can, is to have someone else communicate with you and if necessary the hospital and write an update daily and send it out on your behalf. </p>
+
+
+        </section>
+      )
+    },
+    {
+      id: '6',
+      bookSection: 'Day1',
+      pageHeader: 'Day1: Getting Help',
+      pageName: 'sectionDivider',
+      htmlContent: (
+      
+          <section id='content' class='contents-table'>
+
+
+<h1>Managing Doctor Whirlwind</h1>
+<p>Doctors are very busy and it is common for doctors to see you briefly just and after that they may be unavailable for the rest of the day. It is easy to finish chatting with a doctor wishing you'd asked something else or forget what was said. This is where a system can help you.</p>
+
+<p><strong>The best system </strong>
+Use the "Doctors meetings notes" section of the diary in this book to prepare for the meeting beforehand and then use it to ensure you don't forget the answers.</p>
+<p><strong>Getting help from friends or family: </strong>
+For important meetings having someone attend in person or by phone can be very helpfull to ensure the right questions are asked and correct notes are taken. This could be someone you know or a professional. If you have someone in mind it is a good idea to ask them now before you need them.</p>
+
+<p><strong>Getting help from a patients advocate:</strong>
+Patients advocates are professionals that can help you to understand the doctor and ask questions on your behalf. Depending on where you are they may be offered for free or be hired privately.</p>
+        </section>
+      )
+    },
    
 
   ]
