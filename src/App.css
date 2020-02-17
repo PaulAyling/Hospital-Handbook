@@ -31,8 +31,11 @@ li{
   list-style:none;
 }
 
+
+
 h1{
   text-transform: capitalize;
+  font-size:1.4rem;
 }
 .row-2{
   display:flex;
@@ -42,7 +45,7 @@ h1{
 
 
 .text {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /* UTILITIES */

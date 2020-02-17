@@ -22,22 +22,22 @@ const Day1Data = {
       pageName: 'sectionDivider',
       htmlContent: (
         <section id='content'>
-          <p>Read this section first and when you can complete the activities described if you do them soon your stay should be happier and less stressed. </p>
+          <p>The earlier you can read and start working through these items the easier you will find things</p>
           <p class='section-intro-text'>
            
           </p>
-          <p class='section-intro-text'>
+          <h1>
             1. Record Basic Information
-          </p>
+          </h1>
 <p>At hospital you can be asked the same questions over and over. It will make it easier if you log common answers to some common questions here.</p>
-          <p class='section-intro-text'>
+          <h1>
             2. Bring or get some items
-          </p>
-<p>Some items can make your stay <strong>Alot</strong> more bearable in this book there is a checklist of reccomended items you can bring or have brough for you</p>
-          <p class='section-intro-text'>
-            3. Create a team
-          </p>
-<p>Clearly if you are in hospital you are not at your best! If you can some tasks can be done by friends and family and often with a much better outcome.</p>
+          </h1>
+<p>Some items can make your stay <strong>Alot</strong> more bearable in this book there is a checklist of reccomended items you can bring or have brought for you</p>
+          <h1>
+            3. Get Help vs DIY
+          </h1>
+<p>Clearly if you are in hospital you are not at your best! If you can have some tasks done by friends and family it would be a big help however that may not be possible so you will need a plan that aligns your situation.</p>
             
         </section>
       )
@@ -50,7 +50,7 @@ const Day1Data = {
       htmlContent: (
       
           <section id='content' class='contents-table'>
-          <p>If you get asked asked form information afterwards just fill in them in so you don't have to think about it any more.</p>
+          <p>If you are asked for information, just go to this book afterwards and fill it in. That way you won't have to do it again.</p>
           <div class='infobox-container short'>
             <row class='row-inline-headers row-height'>
               <div className='width4 row-header-left'>
