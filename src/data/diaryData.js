@@ -7,29 +7,175 @@ const DairyData = {
       pageHeader: 'Daily Diary',
       htmlContent: (
         <section id='content'>
-          <h1 class='section-header'>Daily Diary</h1>
-          <p class='section-intro-text'>
-            This section can accomodate 30 days of diary notes and doctors meetings
+          <h1 class='section-header'>Diary </h1>
+          <h1>About Timeline Summary</h1>
+          <p>
+          This is intented for you to summarize the main events to make it easier to communicate with staff about what has happened.
           </p>
           <h1>About the Daily Diary</h1>
-          <p>Write todays date in the top right and make notes on anything you feel is relavant. It could be useful later for you to gain perspective on your experience and help should there be difficulties in treatment or diagnosis.</p>
+          <p>This section is a one page per day diary, there is enough pages for 30 days. It can be useful to gain perspective on your experience or help if there are difficulties in treatment or diagnosis.</p>
           <h1>About doctor meetings in hospital</h1>
           <p>
-            In hospital it is common for doctors to see you just once in the day
-            as part of their “round”.{' '}
+          Doctors in Hospital are very busy so if you have  items you want to raise it can be helpful to prepare beforehand. You can use the "Doctor Meeting Notes" section to write down the questions and answers so you don’t forget them.
           </p>
-          <p>
-            For this reason if you have concerns you want answered it can be
-            very helpful to know what you are going to say before you see the doctor 
-            and have somewhere to write down the answers so you don’t forget
-            them.
-          </p>
+          
 
         </section>
       )
     },
     {
       id: '2',
+      bookSection: 'Logs',
+      pageHeader: 'EVENT TIMELINE',
+      htmlContent: (
+        <section id='content'>
+          <div class='timeline-table'>
+            <div class='timeline-column timeline-column-1'>
+              <div class='timeline-header-row timeline-header-row-left'>
+                <h2>DATE</h2>
+              </div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+ 
+            </div>
+            <div class='timeline-column  timeline-column-2'>
+              <div class='timeline-header-row'>
+                <h2>ITEM</h2>
+              </div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+            </div>
+          </div>
+        </section>
+      )
+    },
+    {
+      id: '3',
+      bookSection: 'Diary',
+      pageHeader: 'vdsvcxzvcxzvcxz',
+      htmlContent: (
+        <section id='content'>
+          <div class='timeline-table'>
+            <div class='timeline-column  timeline-column-2'>
+              <div class='timeline-header-row'>
+                <h2>EXTRA DETAILS</h2>
+              </div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+      
+            </div>
+          </div>
+        </section>
+      )
+    },
+    {
+      id: '4',
+      bookSection: 'Logs',
+      pageHeader: 'EVENT TIMELINE',
+      htmlContent: (
+        <section id='content'>
+          <div class='timeline-table'>
+            <div class='timeline-column timeline-column-1'>
+              <div class='timeline-header-row timeline-header-row-left'>
+                <h2>DATE</h2>
+              </div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div> <div class='timeline-row'></div>{' '}
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+ 
+            </div>
+            <div class='timeline-column  timeline-column-2'>
+              <div class='timeline-header-row'>
+                <h2>ITEM</h2>
+              </div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+            </div>
+          </div>
+        </section>
+      )
+    },
+    {
+      id: '5',
+      bookSection: 'Timeline',
+      pageHeader: 'vdsvcxzvcxzvcxz',
+      htmlContent: (
+        <section id='content'>
+          <div class='timeline-table'>
+            <div class='timeline-column  timeline-column-2'>
+              <div class='timeline-header-row'>
+                <h2>EXTRA DETAILS</h2>
+              </div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+              <div class='timeline-row'></div>
+      
+            </div>
+          </div>
+        </section>
+      )
+    },
+
+
+
+    {
+      id: '6',
       bookSection: 'Diary',
       pageHeader: 'Daily Diary Notes',
       htmlContent: (
@@ -54,7 +200,7 @@ const DairyData = {
       )
     },
     {
-      id: '3',
+      id: '7',
       bookSection: 'Diary',
       pageHeader: 'Doctor Meeting Notes',
       htmlContent: (

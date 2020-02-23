@@ -8,22 +8,22 @@ export default function(props) {
   const pageStart = props.pageStart
   return (
     <Fragment>
-<PageLeftDivider pageStart={pageStart}
-      />
+ {/* <PageLeftDivider pageStart={pageStart}
+       />
       <PageRight
         pageStart={parseInt(pageStart)+parseInt(bookData[0].id)}
         header={bookData[0].pageHeader}
         htmlContent={bookData[0].htmlContent}
         bookSection={bookData[0].bookSection}
-      />
+      /> */}
 
-      <PageLeft
+       <PageLeft
         pageStart={parseInt(pageStart)+parseInt(bookData[1].id)}
         pageHeader={bookData[1].pageHeader}
         htmlContent={bookData[1].htmlContent}
         bookSection={bookData[1].bookSection}
       />
-      <PageRight
+     {/*<PageRight
         pageStart={parseInt(pageStart)+parseInt(bookData[2].id)}
         header={bookData[2].pageHeader}
         htmlContent={bookData[2].htmlContent}
@@ -77,7 +77,7 @@ export default function(props) {
         header={bookData[10].pageHeader}
         htmlContent={bookData[10].htmlContent}
         bookSection={bookData[10].bookSection}
-      /> 
+      />  */}
     </Fragment>
   );
 }

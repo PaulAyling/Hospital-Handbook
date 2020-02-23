@@ -37,7 +37,7 @@ const PrequelData = {
         <section id='content'>
           <h1 class='section-header'>The Hospital Handbook</h1>
           <p class='section-intro-text'>
-            by Paul Ayilng
+            by Paul Ayling
           </p>
         </section>
       )
@@ -55,7 +55,7 @@ const PrequelData = {
             Copyright Paul Ayling 2020
           </p>
           <p >
-            Random House
+           
           </p>
           </div>
 

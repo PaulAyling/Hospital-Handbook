@@ -10,15 +10,15 @@ export default function(props) {
     <Fragment>
       <PageLeft
         pageStart={pageStart}
-        pageHeader={bookData[1].pageHeader}
-        htmlContent={bookData[1].htmlContent}
-        bookSection={bookData[1].bookSection}
+        pageHeader={bookData[5].pageHeader}
+        htmlContent={bookData[5].htmlContent}
+        bookSection={bookData[5].bookSection}
       />
       <PageRight
         pageStart={pageStart + 1}
-        pageHeader={bookData[2].pageHeader}
-        htmlContent={bookData[2].htmlContent}
-        bookSection={bookData[2].bookSection}
+        pageHeader={bookData[6].pageHeader}
+        htmlContent={bookData[6].htmlContent}
+        bookSection={bookData[6].bookSection}
       />
     </Fragment>
   );

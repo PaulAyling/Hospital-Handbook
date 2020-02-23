@@ -3,16 +3,16 @@ const TimelineData = {
   data: [
     {
       id: '1',
-      bookSection: 'Timeline',
+      bookSection: 'Diary',
       pageHeader: 'Timeline',
       htmlContent: (
         <section id='content'>
-          <h1 class='section-header'>Timeline</h1>
+          <h1 class='section-header'>Event Timeline</h1>
           <p class='section-intro-text'>
-            An overview of they key events in order
+            An overview of key events in order 
           </p>
-          <p>Use this to present an overview of what has happened so far. Don't forget to leave gaps between each entry so you can add more if you need to later.</p>
-          <p>IMAGE HERE OF BOOK FILLED IN</p>
+          <p>Use online to indicate a day of interest so you cann communicate easily what has happened so far.</p>
+
         </section>
       )
     },
@@ -61,7 +61,7 @@ const TimelineData = {
     },
     {
       id: '3',
-      bookSection: 'Timeline',
+      bookSection: 'Diary',
       pageHeader: 'vdsvcxzvcxzvcxz',
       htmlContent: (
         <section id='content'>

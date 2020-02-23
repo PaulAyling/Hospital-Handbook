@@ -19,24 +19,115 @@ const DiagnosisData = {
             <li>Drug Log</li>
             <li>Diagnosis</li>
           </ul>
-          <p>IMAGE HERE OF BOOK FILLED IN</p>
         </section>
       )
     },
     {
       id: '2',
       bookSection: 'Symptoms',
-      pageHeader: 'Diagnosis: Symptoms - FRONT',
+      pageHeader: '',
       pageName: 'leftPersonDiagram',
       htmlContent: (
-        <section id='content'>
-          <div class='container-img'>
-            <img
-              class='img-body'
-              src='http://paulayling.me/wp-content/uploads/2019/02/Screen-Shot-2020-01-18-at-10.20.43-am.png'
-              alt='Body'
-            />
-          </div>
+        <section id='content' className='container-whole-page-left'>
+          <div id='diagnosis' className='container-flex-row container-infobox '>
+            <div className='diagnosisBox-side-image '></div>
+            <div className=' container-flex-column'>
+              <div className='container-symptom-box gray'>
+                {/* Article */}
+                <article className=' container-flex-row '>
+                  <div className='container-flex-column pd-4'>
+                    <div className='symptom-header'>
+                      <strong>Symptom:</strong>
+                    </div>
+                    <div className='container-flex-row  container-diagnosis-meta'>
+                      <div className='symptom-info-header width2'>Date:</div>
+                      <div className='symptom-info width2'></div>
+                    </div>
+
+                    <div className='container-flex-row'>
+                      <div className='symptom-info-header width2'>
+                        Doctor Name:
+                      </div>
+                      <div className='symptom-info width2'></div>
+                    </div>
+                  </div>
+                  <div className=''></div>
+                </article>
+              </div>
+          
+            </div>
+            <div className="wid">hello</div>
+          </div>     
+          <article className=' container-flex-column container-infobox'>
+              <div className='width2  gray'>
+                <div className=' container-flex-row '>
+                  <div className='container-flex-column pd-4'>
+                    <div className='symptom-header'>
+                      <strong>Diagnosis 1:</strong>
+                    </div>
+                    <div className='container-flex-row  container-diagnosis-meta'>
+                      <div className='symptom-info-header width2'>Date:</div>
+                      <div className='symptom-info width2'></div>
+                    </div>
+
+                    <div className='container-flex-row'>
+                      <div className='symptom-info-header width2'>
+                        Doctor Name:
+                      </div>
+                      <div className='symptom-info width2'></div>
+                    </div>
+                  </div>
+                  <div className=''></div>
+                </div>
+              </div>
+            </article>
+          <article className=' container-flex-column container-infobox'>
+              <div className='width2  gray'>
+                <div className=' container-flex-row '>
+                  <div className='container-flex-column pd-4'>
+                    <div className='symptom-header'>
+                      <strong>Diagnosis 2:</strong>
+                    </div>
+                    <div className='container-flex-row  container-diagnosis-meta'>
+                      <div className='symptom-info-header width2'>Date:</div>
+                      <div className='symptom-info width2'></div>
+                    </div>
+
+                    <div className='container-flex-row'>
+                      <div className='symptom-info-header width2'>
+                        Doctor Name:
+                      </div>
+                      <div className='symptom-info width2'></div>
+                    </div>
+                  </div>
+                  <div className=''></div>
+                </div>
+              </div>
+            </article>
+          <article className=' container-flex-column container-infobox'>
+              <div className='width2  gray'>
+                <div className=' container-flex-row '>
+                  <div className='container-flex-column pd-4'>
+                    <div className='symptom-header'>
+                      <strong>Diagnosis 3:</strong>
+                    </div>
+                    <div className='container-flex-row  container-diagnosis-meta'>
+                      <div className='symptom-info-header width2'>Date:</div>
+                      <div className='symptom-info width2'></div>
+                    </div>
+
+                    <div className='container-flex-row'>
+                      <div className='symptom-info-header width2'>
+                        Doctor Name:
+                      </div>
+                      <div className='symptom-info width2'></div>
+                    </div>
+                  </div>
+                  <div className=''></div>
+                </div>
+              </div>
+            </article>
+          
         </section>
       ),
       definePrototypes: '',
@@ -183,23 +274,21 @@ const DiagnosisData = {
               <h2>E.</h2>
             </div>
             <div class='symptom-box'>
-              <div>
-                <row class='header-section'>
-                  <div class='label'>
-                    <p>Symptom:</p>
-                  </div>
-                </row>
-                <row>
-                  <div class='label-details'>
-                    <p>Details:</p>
-                  </div>
-                </row>
-                <row>
-                  <div></div>
-                </row>
-                <div>
-                  <div></div>
+              <row class='header-section'>
+                <div class='label'>
+                  <p>Symptom:</p>
                 </div>
+              </row>
+              <row>
+                <div class='label-details'>
+                  <p>Details:</p>
+                </div>
+              </row>
+              <row>
+                <div></div>
+              </row>
+              <div>
+                <div></div>
               </div>
             </div>
           </article>
@@ -331,8 +420,6 @@ const DiagnosisData = {
             <div class='lined-row'></div>
             <div class='lined-row'></div>
             <div class='lined-row'></div>
-       
-
           </div>
         </section>
       )
@@ -455,7 +542,7 @@ const DiagnosisData = {
       )
     },
     {
-      id:'9',
+      id: '9',
       bookSection: 'Diagnosis',
       pageHeader: '',
       htmlContent: (
@@ -586,15 +673,11 @@ const DiagnosisData = {
               <div className='width4 row-header-left'>
                 <p className='row-header-text'>Name of Diagnoser</p>
               </div>
-              <div className='width4 row-header-left-input'>
-      
-              </div>
+              <div className='width4 row-header-left-input'></div>
               <div className='width4 row-header'>
                 <p className='row-header-text'>Diagnostic Date</p>
               </div>
-              <div className='width4 row-header-left-input'>
-            
-              </div>
+              <div className='width4 row-header-left-input'></div>
             </row>
             <row className='row-empty'></row>
             <row className='row-inline-headers row-height'>
@@ -645,14 +728,11 @@ const DiagnosisData = {
               <div className='width4 row-header-left'>
                 <p className='row-header-text'>Name of Diagnoser</p>
               </div>
-              <div className='width4 row-header-left-input'>
-              </div>
+              <div className='width4 row-header-left-input'></div>
               <div className='width4 row-header'>
                 <p className='row-header-text'>Diagnostic Date</p>
               </div>
-              <div className='width4 row-header-left-input'>
-    
-              </div>
+              <div className='width4 row-header-left-input'></div>
             </row>
             <row className='row-empty'></row>
             <row className='row-inline-headers row-height'>
@@ -699,8 +779,6 @@ const DiagnosisData = {
               </div>
             </row>
             <row className='row-empty'></row>
-            
-       
           </div>
         </section>
       )

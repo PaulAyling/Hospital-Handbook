@@ -27,28 +27,50 @@ li{
   font-size: 1.5rem;
 }
 
-.noBullet-list-item{
-  list-style:none;
-}
-
-
-
 h1{
   text-transform: capitalize;
   font-size:1.4rem;
 }
-.row-2{
-  display:flex;
-  justify-content: space-between;
-  width:100%;
+.noBullet-list-item{
+  list-style:none;
 }
+    /* ROWS & COLs */
+
+.row-side-header {
+  background:lightgray;
+  text-align: right;
+  padding:4px;
+}
+.row-underline{
+  border-bottom:1px solid lightgray;
+}
+.row-underline-strong{
+  border-bottom:4px solid lightgray;
+}
+
+/* UTILITIES */
+
 
 
 .text {
   font-size: 1.3rem;
 }
+.container-flex-row{
+  display:flex;
+  flex-direction:row
+}
+.container-flex-column{
+  display:flex;
+  flex-direction:column
+}
+.container-solid-border{
+  border:1px solid lightgray;
+  border-radius:3px;
+}
 
-/* UTILITIES */
+
+
+
 .rotate {
   transform: rotate(90deg);
   /* Legacy vendor prefixes that you probably don't need... */
@@ -250,7 +272,7 @@ height: 4rem;
   border-radius: 15px;
 }
 
-row {
+.row {
   display: flex;
   flex-direction: row;
   width: 4.5in;
@@ -315,7 +337,9 @@ row {
 }
 
 /*  BODY IMAGE PAGE   */
-.container-img {
+.img-body {
+  border: 3px solid green;
+
 }
 
 .body-header {
@@ -329,7 +353,7 @@ row {
 .img-body {
   padding: 0 0 0 30px;
   margin: 0;
-  height: 7in;
+  height: 10rem;
 }
 
 /* DIAGNOSIS */
@@ -508,31 +532,8 @@ h2{
 .text-small{
   font-size:1.4rem;
 }
-.width2{
-width:50%;
-}
-.width4{
-width:7rem;
-min-width:7rem;
-}
-.row-header-left, .row-header{
-  background:lightgray;
-  padding-left:1rem;
-}
-.row-header-left{
-  border-radius: 12px 0 0 0;
-}
 
-.row-header-text{
-  color:black;
-  margin:6px;
-  font-size:1rem;
-  padding:3px;
-}
-.row-empty{
-  max-height:1rem;
 
-  width:100%;
-}
 
+/*  DIAGNOSIS  */
 

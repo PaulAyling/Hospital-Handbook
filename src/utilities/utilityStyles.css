@@ -1,0 +1,24 @@
+.box-1{
+  background:red;
+  border:3px solid black;
+  min-width:200px;
+  min-height:50px;
+}
+.box-2{
+  background:blue;
+  border:3px solid black;
+  min-width:200px;
+  min-height:50px;
+}
+.box-3{
+  background:green;
+  border:3px solid black;
+  min-width:200px;
+  min-height:50px;
+}
+.box-4{
+  background:yellow;
+  border:3px solid black;
+  min-width:200px;
+  min-height:50px;
+}

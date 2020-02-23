@@ -61,6 +61,14 @@ export default function(props) {
               </article>
               <article className='row-2 contents-row'>
                 <div className='contents-item'>
+                  <h1>Hospital Release</h1>
+                </div>
+                <div className='contents-item'>
+                  <p className='textalign-right'>{diagnosisSectionStart}</p>
+                </div>
+              </article>
+              <article className='row-2 contents-row'>
+                <div className='contents-item'>
                   <h1>Extras</h1>
                 </div>
                 <div className='contents-item'>
