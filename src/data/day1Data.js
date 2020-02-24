@@ -108,38 +108,43 @@ const Day1Data = {
           <p>If you are asked for information, just go to this book afterwards and fill it in. That way you won't have to do it again.</p>
           <div class=''>
             <row className='row-empty'></row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'>Hospital Number</p>
               </div>
             </row>
       
-            <row className='row-inline-headers row-height-header'>
-              <div className='row-header width2'>
+            <row className='row-inline-headers row-height-header border-gray '>
+              <div className='row-header width2 '>
                 <p className=' row-header-text'>Existing Medical conditions</p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'>Insurance details</p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'>Next of Kin </p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'>Hospital Ward Contact Details</p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'>Wifi password and username for ward</p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
+              <div className='row-header width2'>
+                <p className=' row-header-text'></p>
+              </div>
+            </row>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
@@ -161,58 +166,58 @@ const Day1Data = {
           <div class=''>
            
           <row className='row-empty'></row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
       
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'> </p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>
             </row>
-            <row className='row-inline-headers row-height'>
+            <row className='row-inline-headers row-height border-gray '>
               <div className='row-header width2'>
                 <p className=' row-header-text'></p>
               </div>

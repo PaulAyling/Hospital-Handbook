@@ -1,6 +1,6 @@
 /* DIAGNOSIS BOX */
 .container-symptom-box{
-  min-height:10rem;
+  min-height:8rem;
 
 }
 .container-diagnosis-meta{
@@ -9,11 +9,11 @@
 
 .diagnosisBox-side-image {
   background-image: url('http://paulayling.me/wp-content/uploads/2019/02/Screen-Shot-2020-01-18-at-10.20.43-am.png');
-  background-size: 1in;
+  background-size: 0.8in;
   background-repeat: no-repeat;
   background-position: top;
   min-width: 6rem;
-  min-height:10rem;
+  
 }
 
 .symptom-header {
@@ -21,17 +21,28 @@
   text-align: right;
   border: 0px;
 }
-.symptom-info-header {
+.symptom-info-header  {
   background: lightgray;
-  text-align: right;
+  text-align: left;
   border: 0px;
 }
 .symptom-info {
   border: solid 2px lightgray;
-  text-align: right;
+  margin-right:20px;
+  text-align: left;
   background: white;
+
 }
 .container-diagnosis-meta {
   margin-bottom: 10px;
 
+}
+
+.width-custom {
+  width:41%;
+}
+
+.cause-header{
+  vertical-align: middle;
+  padding-left:4px;
 }

@@ -44,7 +44,7 @@ export default function(props) {
 
 
         <DiaryByDay bookData={bookData} pageStart={pageStart+1} />
-        {/* <DiaryByDay bookData={bookData} pageStart={pageStart+3} />
+        <DiaryByDay bookData={bookData} pageStart={pageStart+3} />
         <DiaryByDay bookData={bookData} pageStart={pageStart+5} />
         <DiaryByDay bookData={bookData} pageStart={pageStart+7} />
         <DiaryByDay bookData={bookData} pageStart={pageStart+9} />
@@ -74,7 +74,7 @@ export default function(props) {
         <DiaryByDay bookData={bookData} pageStart={pageStart+53} />
         <DiaryByDay bookData={bookData} pageStart={pageStart+55} />
         <DiaryByDay bookData={bookData} pageStart={pageStart+57} />
-        <DiaryByDay bookData={bookData} pageStart={pageStart+59} /> */}
+        <DiaryByDay bookData={bookData} pageStart={pageStart+59} />
 
       
 
