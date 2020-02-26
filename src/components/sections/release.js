@@ -30,9 +30,7 @@ export default function(props) {
       />
             <PageLeft
         pageStart={pageStart}
-        pageHeader={bookData[3].pageHeader}
-        htmlContent={bookData[3].htmlContent}
-        bookSection={bookData[3].bookSection}
+
       />
       <PageRight
         pageStart={pageStart + 1}

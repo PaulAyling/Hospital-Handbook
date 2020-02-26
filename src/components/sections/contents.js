@@ -45,14 +45,6 @@ export default function(props) {
               </article>
               <article className='row-2 contents-row'>
                 <div className='contents-item'>
-                  <h1>Overview of Timelines</h1>
-                </div>
-                <div className='contents-item'>
-                  <p className='textalign-right'>{timelineSectionStart}</p>
-                </div>
-              </article>
-              <article className='row-2 contents-row'>
-                <div className='contents-item'>
                   <h1>Diagnosis</h1>
                 </div>
                 <div className='contents-item'>

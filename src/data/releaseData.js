@@ -70,8 +70,8 @@ const TimelineData = {
 <h1>Checklists</h1>
 <h1>Prior to Release Meeting</h1>
 <ul>
-  <li>If you have chosen to have another person attent with you so you know when the meeting is to happen and does the other peson know this as well?</li>
-  <li>After reading these pages write down all your questions</li>
+  <li>If you have chosen to have another person attend ensure you both know when its is schedules to occur</li>
+  <li>After reading these pages write down all your questions so you are prepared for the meeting</li>
 </ul>
         </section>
       )
@@ -96,17 +96,17 @@ const TimelineData = {
           <h1>Some example questions are below</h1>
           <ul>
             <h1>Current Questions </h1>
-            <li>What are the causes of my symptoms</li>
+            <li>What are the causes of my symptoms?</li>
             <li>Is paperwork required for dismissal?</li>
-            <li>How long will it take to complete </li>
+            <li>How long will it take to complete? </li>
             <h1>Questions about the Future</h1>
             <li>Will I make a full recovery?</li>
             <li>How long will it take and what symptoms should I see improving first?</li>
-            <li>What symptoms may occur I look out for?</li>
+            <li>What symptoms may occur I should look out for?</li>
             <li>If those symptoms arise then should I seek a doctor or visit hospital?</li>
-            <li>Any special diet?</li>
+            <li>Should I be on any special diet?</li>
             <li>What level of rest is required?</li>
-            <li>Anything else I can do to improve recovery?</li>
+            <li>Is there anything else I can do to improve recovery?</li>
           </ul>
         </section>
       )
