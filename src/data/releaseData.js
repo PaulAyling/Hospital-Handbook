@@ -21,32 +21,35 @@ const TimelineData = {
       pageName: 'sectionDivider',
       htmlContent: (
         <section id='content' class='contents-table'>
-  
-
           <h1>Managing your release from hospital</h1>
           <p>
-            Congratulations it looks like you are past the critical part of your condition and a doctor has made the decision to have you leave hospital. When this happens it is common for people to leave and then wish they had asked other questions at the time. In this section I expolain what the release process often looks like and  what are some of the best things to do and watch for when you are being released.
+            The doctor has made the decision to have you leave
+            hospital. In this
+            section I explain what the release process often looks like and
+            what are some of the best things to do and watch for when you are
+            being released.
           </p>
-<h1>The release process</h1>
-<p>It normally goes something like this</p>
-<ul>
-  <li>You have a meeting with a senior doctor or specialist and that person tells you about the condition and what they found and why you are free to go. </li>
-  <li>Paperwork is then filled in</li>
-  <li>You pick up paper work</li>
-  <li>You make your way home</li>
-</ul>
-
+          <h1>The release process</h1>
+          <p>It normally goes something like this</p>
+          <ul>
+            <li>
+              You have a meeting with a senior doctor or specialist (release
+              meeting) to cover off questions and explian the reason for release.
+            </li>
+            <li>Paperwork is then filled in</li>
+            <li>You pick up paper work</li>
+            <li>You make your way home</li>
+          </ul>
+          <h1>About After the Hospital Visit</h1>
 
           <p>
-            A good way of providing updates is a group text, email or whatsapp
-            message sent out daily. You should also let at least one person know
-            how they can contact the hospital ward directly to get updates if
-            you are unavailable.
+            Depending on your current symptoms and network how you are going to manage
+            after hospital can be daunting. If you are concearned this should
+            also be discussed in the release meeting.
           </p>
 
           <p>
-            A better way, if you can, is to have someone else handle the
-            communication and send out daily updates on your behalf.{' '}
+{' '}
           </p>
         </section>
       )
@@ -54,34 +57,57 @@ const TimelineData = {
     {
       id: '2',
       bookSection: 'Release',
-      pageHeader: 'Reelase: jjj',
+      pageHeader: 'Release: The Release Meeting',
       pageName: 'sectionDivider',
       htmlContent: (
         <section id='content' class='contents-table'>
           <p>
-            During your stay there are two key tasks you will have to manage.
+            Usually on the day of your release you will have a meeting with a
+            doctor. To help you with this is enclosed is a checklist, it may
+            also be usefull to have another person present in this meeting. Use
+            a diary page to write down important questions before the meeting.
           </p>
-
-          <h1>Updates with relatives and family</h1>
-          <p>
-            Depending on your location and who needs updating providing updates
-            on your condition can be hard work. If you are unclear or incorrect
-            it can lead to a lot of extra time and stress clarifying things. For
-            everyones well being it is important that this is done quickly and
-            effectively.
-          </p>
-
-          <p>
-            A good way of providing updates is a group text, email or whatsapp
-            message sent out daily. You should also let at least one person know
-            how they can contact the hospital ward directly to get updates if
-            you are unavailable.
-          </p>
-
-          <p>
-            A better way, if you can, is to have someone else handle the
-            communication and send out daily updates on your behalf.{' '}
-          </p>
+<h1>Checklists</h1>
+<h1>Prior to Release Meeting</h1>
+<ul>
+  <li>If you have chosen to have another person attent with you so you know when the meeting is to happen and does the other peson know this as well?</li>
+  <li>After reading these pages write down all your questions</li>
+</ul>
+        </section>
+      )
+    },
+    {
+      id: '3',
+      bookSection: 'Release',
+      pageHeader: 'Release: The Release Meeting',
+      pageName: 'sectionDivider',
+      htmlContent: (
+        <section id='content' class='contents-table'>
+         <h1>The Release Meeting</h1>
+          <h1>Release Meeting Checklist</h1>
+          <ul>
+            <li>You understand when you are scheduled for release</li>
+            <li>You have asked all your important questions</li>
+            <li>The causes of symptoms are fully explained</li>
+            <li>Answers to all your questions are fully explained and understood.</li>
+   
+          
+          </ul>
+          <h1>Some example questions are below</h1>
+          <ul>
+            <h1>Current Questions </h1>
+            <li>What are the causes of my symptoms</li>
+            <li>Is paperwork required for dismissal?</li>
+            <li>How long will it take to complete </li>
+            <h1>Questions about the Future</h1>
+            <li>Will I make a full recovery?</li>
+            <li>How long will it take and what symptoms should I see improving first?</li>
+            <li>What symptoms may occur I look out for?</li>
+            <li>If those symptoms arise then should I seek a doctor or visit hospital?</li>
+            <li>Any special diet?</li>
+            <li>What level of rest is required?</li>
+            <li>Anything else I can do to improve recovery?</li>
+          </ul>
         </section>
       )
     }

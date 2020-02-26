@@ -28,6 +28,18 @@ export default function(props) {
         htmlContent={bookData[2].htmlContent}
         bookSection={bookData[2].bookSection}
       />
+            <PageLeft
+        pageStart={pageStart}
+        pageHeader={bookData[3].pageHeader}
+        htmlContent={bookData[3].htmlContent}
+        bookSection={bookData[3].bookSection}
+      />
+      <PageRight
+        pageStart={pageStart + 1}
+        pageHeader={bookData[3].pageHeader}
+        htmlContent={bookData[3].htmlContent}
+        bookSection={bookData[3].bookSection}
+      />
     </Fragment>
   );
 }

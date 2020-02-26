@@ -16,6 +16,32 @@ export default function(props) {
         htmlContent={bookData[0].htmlContent}
         bookSection={bookData[0].bookSection}
       />
+       <PageLeft
+            pageStart={parseInt(props.pageStart)+parseInt(bookData[1].id)}
+        pageHeader={bookData[1].pageHeader}
+        htmlContent={bookData[1].htmlContent}
+        bookSection={bookData[1].bookSection}
+      />
+      <PageRight
+            pageStart={parseInt(props.pageStart)+parseInt(bookData[2].id)}
+        pageHeader={bookData[2].pageHeader}
+        pageNumber={bookData[2].id}
+        htmlContent={bookData[2].htmlContent}
+        bookSection={bookData[2].bookSection}
+      />
+       <PageLeft
+            pageStart={parseInt(props.pageStart)+parseInt(bookData[3].id)}
+        pageHeader={bookData[3].pageHeader}
+        htmlContent={bookData[3].htmlContent}
+        bookSection={bookData[3].bookSection}
+      />
+      <PageRight
+            pageStart={parseInt(props.pageStart)+parseInt(bookData[4].id)}
+        pageHeader={bookData[4].pageHeader}
+        pageNumber={bookData[4].id}
+        htmlContent={bookData[4].htmlContent}
+        bookSection={bookData[4].bookSection}
+      />
      
     </Fragment>
   );

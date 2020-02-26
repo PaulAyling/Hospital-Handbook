@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Prequel bookData={prequel} />
+       <Prequel bookData={prequel} />
       <Contents
         introSectionStart={introSectionStart}
         day1SectionStart={day1SectionStart}
@@ -58,7 +58,7 @@ function App() {
       <Day1 bookData={day1Data} pageStart={day1SectionStart} />
       <Diary bookData={diaryData} pageStart={diarySectionStart} />
       <Diagnosis bookData={diagnosisData} pageStart={diagnosisSectionStart} />
-      <Release bookData={releaseData} pageStart={diagnosisSectionStart}/>
+      <Release bookData={releaseData} pageStart={diagnosisSectionStart}/>  
       <Appendix bookData={extraData}      pageStart={extraSectionStart}/>
       <BackCover   bookData={backCoverData}  />
     </div>
