@@ -103,7 +103,7 @@ const IntroData = {
           </p>
 
           <p>
-            The sections are marked on the right tabs to make it easy to find;
+            The sections are below;
           </p>
           <ul>
             <li>Start</li>
@@ -113,6 +113,9 @@ const IntroData = {
             <li>Extras</li>
           </ul>
           
+          <p>
+            The sections are marked on the right tabs to make it easy to find. 
+          </p>
          
         </article>
       )
@@ -123,10 +126,9 @@ const IntroData = {
       pageHeader: '',
       htmlContent: (
         <article id='Introduction'>
-        <h1>Start</h1>
+        <h1>Start Section</h1>
           <p>
-            Suggestions of items that if you do now will make things easier
-            later this includes
+            This contains;
           </p>
           <ul>
             <li>Some handy items to have to make your stay easier</li>
@@ -138,7 +140,7 @@ const IntroData = {
               doctors meetings
             </li>
           </ul>
-          <h1>Diary</h1>
+          <h1>Diary Section</h1>
           <p>
             This involves everything you need to document your stay in hospital,
             it contains the following sections;
@@ -170,9 +172,9 @@ const IntroData = {
       pageHeader: '',
       htmlContent: (
         <article id='Introduction'>
-          <h1>Diagnosis</h1>
+          <h1>Diagnosis Section</h1>
           <p>
-            This section comes in most useful if your condition is not clear or
+            This comes in most useful if your condition is not clear or
             your symptoms change. If that is the case then you can build a
             comprehensive record here and may make diagnosis easier.
           </p>
@@ -198,9 +200,9 @@ const IntroData = {
       htmlContent: (
         <article id='Introduction'>
           
-          <h1>Release</h1>
-          <p>Advice on how to best manage your release from hospital</p>
-          <h1>Extras</h1>
+          <h1>Release Section</h1>
+          <p>This includes advice on how to best manage your release from hospital</p>
+          <h1>Extras Section</h1>
           <p>
             Additional worksheets and resources that you might also find useful{' '}
           </p>
