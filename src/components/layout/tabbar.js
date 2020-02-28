@@ -17,7 +17,7 @@ export default function(props) {
         <p className="tabbbar-text">Intro</p>
       </div>
       <div className={"tab rotate "+ day1} >
-        <p className="tabbbar-text">Day 1</p>
+        <p className="tabbbar-text">START</p>
       </div>
       <div className={"tab rotate "+ diary} >
         <p className="tabbbar-text">Diary</p>

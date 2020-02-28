@@ -8,9 +8,9 @@ const Day1Data = {
       pageName: 'sectionDivider',
       htmlContent: (
         <section id='content'>
-          <h1 class='section-header'>Day 1</h1>
+          <h1 class='section-header'>Start Here!</h1>
           <p class='section-intro-text'>
-            If you do these things early you will be pleased you did!
+            This section explains how to use the different parts of this book. It also gets you started with a few small tasks to get you started.
           </p>
         </section>
       )
