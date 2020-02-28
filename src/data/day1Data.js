@@ -8,9 +8,9 @@ const Day1Data = {
       pageName: 'sectionDivider',
       htmlContent: (
         <section id='content'>
-          <h1 class='section-header'>Start Here!</h1>
+          <h1 class='section-header'>Start Here</h1>
           <p class='section-intro-text'>
-            This section explains how to use the different parts of this book. It also gets you started with a few small tasks to get you started.
+          If you do these things early you will be pleased you did!
           </p>
         </section>
       )
@@ -22,6 +22,7 @@ const Day1Data = {
       pageName: 'sectionDivider',
       htmlContent: (
         <section id='content'>
+           <h1 class='section-header'>Start Here</h1>
           <p>The earlier you can read and start working through these items, the easier you will find things</p>
           <p class='section-intro-text'>
            
@@ -50,25 +51,26 @@ const Day1Data = {
       htmlContent: (
       
           <section id='content' class='contents-table'>
+           <h1 class='section-header'>Item Checklist</h1>
           <p>A few items that could help you stay</p>
 <ul>
   <li>Electrical Items
     <ul>
     <li>Phone</li>
   <li>Phone Charger</li>
-  <li>Laptop or ipad</li>
+  <li>Laptop or iPad</li>
     </ul>
   </li>
   <li>Get better sleep
     <ul>
-    <li>Facemask</li>
+    <li>Face-mask</li>
   <li>Earplugs</li>
     </ul>
   </li>
   <li>Bring some clothes
     <ul>
     <li>Loose fitting underwear</li>
-  <li>Tshirts</li>
+  <li>T-shirts</li>
   <li>Track suit bottoms</li>
     </ul>
   </li>
@@ -105,6 +107,7 @@ const Day1Data = {
       htmlContent: (
       
           <section id='content' class='contents-table'>
+           <h1 class='section-header'>Handy Info</h1>
           <p>If you are asked for information, just go to this book afterwards and fill it in. That way you won't have to do it again.</p>
           <div class=''>
             <row className='row-empty'></row>
@@ -240,9 +243,14 @@ const Day1Data = {
       htmlContent: (
       
           <section id='content' class='contents-table'>
+                  <h1 class='section-header'>Tips</h1>
 <p>During your stay there are two key tasks you will have to manage.</p>
+<ul>
+  <li>Updating friends and family</li>
+  <li>Managing the Doctor Whirlwind</li>
+</ul>
 
-<h1>Updates with relatives and family</h1>
+<h1>Updating friends and family</h1>
 <p>Depending on your location and who needs updating providing updates on your condition can be hard work. If you are unclear or incorrect it can lead to a lot of extra time and stress clarifying things. For everyones well being it is important that this is done quickly and effectively.</p>
 
 <p>A good way of providing updates is a group text, email or whatsapp message sent out daily. You should also let at least one person know how they can contact the hospital ward directly to get updates if you are unavailable.</p>
@@ -267,7 +275,7 @@ const Day1Data = {
 <p><strong>The best system </strong>
 Use the "Doctors meetings notes" section of the diary in this book to prepare for the meeting beforehand and then use it to ensure you don't forget the answers.</p>
 <p><strong>Getting help from friends or family: </strong>
-For important meetings having someone attend in person or by phone can be very helpfull to ensure the right questions are asked and correct notes are taken. This could be someone you know or a professional. If you have someone in mind it is a good idea to ask them now before you need them.</p>
+For important meetings having someone attend in person or by phone can be very helpful to ensure the right questions are asked and correct notes are taken. This could be someone you know or a professional. If you have someone in mind it is a good idea to ask them now before you need them.</p>
 
 <p><strong>Getting help from a patients advocate:</strong>
 Patients advocates are professionals that can help you to understand the doctor and ask questions on your behalf. Depending on where you are they may be offered for free or be hired privately.</p>

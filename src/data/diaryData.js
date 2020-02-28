@@ -3,14 +3,14 @@ const DairyData = {
   data: [
     {
       id: '1',
-      bookSection: 'Daily Diary',
+      bookSection: 'Diary',
       pageHeader: 'Daily Diary',
       htmlContent: (
         <section id='content'>
           <h1 class='section-header'>Diary </h1>
           <h1>About Timeline Summary</h1>
           <p>
-          This is intented for you to summarize the main events to make it easier to communicate with staff about what has happened.
+          This is intended for you to summarise the main events to make it easier to communicate with staff about what has happened.
           </p>
           <h1>About the Daily Diary</h1>
           <p>This section is a one page per day diary, there is enough pages for 30 days. It can be useful to gain perspective on your experience or help if there are difficulties in treatment or diagnosis.</p>

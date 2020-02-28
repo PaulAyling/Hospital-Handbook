@@ -10,21 +10,21 @@ const DiagnosisData = {
         <section id='content'>
           <h1 class='section-header'>Diagnosis</h1>
           <p class='section-intro-text'>
-            This section comes in most usefull if your condition is not clear or
+            This section comes in most useful if your condition is not clear or
             your symptoms change. If that is the case then you can build a
-            comprohensive record here and may make diagnosis easier.
+            comprehensive record here and may make diagnosis easier.
           </p>
-
-          <p>
-            {' '}
+   {' '}
+          <p className="extra-margin">
+         
             If you only have one symptom and the cause of that symptom seems to
-            be unchanged througout your hospital stay, then you will only need
+            be unchanged throughout your hospital stay, then you will only need
             to use the first box in this section.{' '}
           </p>
 
           <p>
             It is not essential to have all the information such as the name of
-            the doctor and exact dates but sometimes it can be helpfull, so just
+            the doctor and exact dates but sometimes it can be helpful, so just
             fill in what you feel comfortable with.
           </p>
         </section>

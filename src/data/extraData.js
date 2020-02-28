@@ -11,7 +11,7 @@ const ExtraData = {
           <p class='section-intro-text'>Extra Materials and Links</p>
           <p>
             There are some additional that are not essential but you may find
-            usefull. There are also links to externam resources here as well
+            useful. There are also links to external resources here as well
           </p>
 
           <ul>
@@ -20,6 +20,7 @@ const ExtraData = {
               <ul>
                 <li>Unusual Activity Log</li>
                 <li>Drug Log</li>
+                <li>Other Resources</li>
               </ul>
             </li>
           </ul>
@@ -35,7 +36,7 @@ const ExtraData = {
       htmlContent: (
         <section id='content' class='contents-table'>
           <p>
-            If diagnosis is becoming difficult it can be usefull to log anything
+            If diagnosis is becoming difficult it can be useful to log anything
             unusual you did or saw prior to your symptoms. This log is for that.
           </p>
           <div class='container-log-content'>
@@ -349,7 +350,47 @@ const ExtraData = {
           </section>
         </section>
       )
-    }
+    },
+    {
+      id: '1',
+      bookSection: 'Extra',
+      pageHeader: 'Appendix',
+      htmlContent: (
+        <section id='content'>
+          <h1 class='section-header'>Thank You!</h1>
+          
+          <p>
+            I would love to hear any feedback or suggestions so I can imporve the next verion of this please visit our website HospitalHelper.com and you can contact me personally.
+          </p>
+
+         
+        </section>
+      )
+    },
+    {
+      id: '1',
+      bookSection: 'Extra',
+      pageHeader: 'Appendix',
+      htmlContent: (
+        <section id='content'>
+          <h1 class='section-header'>Thank You!</h1>
+          <p class='section-intro-text'>I hope this has helped</p>
+          <p>
+            I would love to hear any feedback or suggestions so I can imporove the next version of this please visit our website HospitalHelper.com
+          </p>
+
+          <ul>
+            <li>
+              Extra Sections
+              <ul>
+                <li>More to be added here</li>
+  
+              </ul>
+            </li>
+          </ul>
+        </section>
+      )
+    },
   ]
 };
 

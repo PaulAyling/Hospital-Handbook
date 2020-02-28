@@ -34,7 +34,7 @@ const TimelineData = {
           <ul>
             <li>
               You have a meeting with a senior doctor or specialist (release
-              meeting) to cover off questions and explian the reason for release.
+              meeting) to cover off questions and explain the reason for release.
             </li>
             <li>Paperwork is then filled in</li>
             <li>You pick up paper work</li>
@@ -44,7 +44,7 @@ const TimelineData = {
 
           <p>
             Depending on your current symptoms and network how you are going to manage
-            after hospital can be daunting. If you are concearned this should
+            after hospital can be daunting. If you are concerned this should
             also be discussed in the release meeting.
           </p>
 
@@ -64,7 +64,7 @@ const TimelineData = {
           <p>
             Usually on the day of your release you will have a meeting with a
             doctor. To help you with this is enclosed is a checklist, it may
-            also be usefull to have another person present in this meeting. Use
+            also be useful to have another person present in this meeting. Use
             a diary page to write down important questions before the meeting.
           </p>
 <h1>Checklists</h1>
