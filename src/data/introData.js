@@ -19,7 +19,7 @@ const IntroData = {
       pageHeader: 'Background',
       htmlContent: (
         <article id='Introduction'>
-        <h1 class='section-header no-margin'>It started in an Ambulance... </h1>
+        <h1 class=''>It started in an Ambulance... </h1>
      
           <p>
             Recently I found myself in an ambulance travelling across Thailand
@@ -97,8 +97,8 @@ const IntroData = {
         <article id='Introduction'>
           <h1 class='section-header'>How to use this book</h1>
           <p>
-            The book is split into sections. The sections are mostly worksheets
-            this guides you through what you have to do to make organising your
+            The book is split into sections. The sections contain worksheets
+            and guides you to walk you through what you have to do to make organising your
             time in hospital as easy as possible.
           </p>
 
@@ -131,34 +131,34 @@ const IntroData = {
             This contains;
           </p>
           <ul>
-            <li>Some handy items to have to make your stay easier</li>
+            <li>Some handy items to make your stay easier.</li>
             <li>
-              Some Information to write down to reduce you repeating yourself
+              Some information to write down to prevent repeating yourself.
             </li>
             <li>
-              Some tips on how to keep friends and family updated and manage
-              doctors meetings
+              Some tips on how to update friends and family and manage
+              doctors meetings.
             </li>
           </ul>
           <h1>Diary Section</h1>
           <p>
-            This involves everything you need to document your stay in hospital,
+            This contains everything you need to document your stay in hospital,
             it contains the following sections;
           </p>
           <h2 className='text-subheading'>Timeline Summary</h2>
           <p className='text-subheading'>
-            This is intended for you to summarise the main events to make it
+            Intended for you to summarise the main events during your illness to make it
             easier to communicate with staff about what has happened.
           </p>
           <h2 className='text-subheading'>The Daily Diary</h2>
           <p className='text-subheading'>
-            This section is a one page per day diary, there is enough pages for
+            This is a one page per day diary, there is enough pages for
             30 days. It can be useful to gain perspective on your experience or
             help if there are difficulties in treatment or diagnosis.
           </p>
           <h2 className='text-subheading'>Doctor Meeting Notes </h2>
           <p className='text-subheading'>
-            Each day has a section for questions and answers for the doctor
+            Each day i the daily diary has a section for questions and answers for the doctor
             meetings so you don’t forget them.
           </p>
          
@@ -174,32 +174,10 @@ const IntroData = {
         <article id='Introduction'>
           <h1>Diagnosis Section</h1>
           <p>
-            This comes in most useful if your condition is not clear or
+            This section is most useful if your condition is not clear or
             your symptoms change. If that is the case then you can build a
-            comprehensive record here and may make diagnosis easier.
+            comprehensive record here which may make diagnosis easier.
           </p>
-          <p>
-            {' '}
-            If you only have one symptom and the cause of that symptom seems to
-            be unchanged throughout your hospital stay, then you will only need
-            to use the first box in this section.{' '}
-          </p>
-
-          <p>
-            It is not essential to have all the information such as the name of
-            the doctor and exact dates but sometimes it can be helpful, so just
-            fill in what you feel comfortable with.
-          </p>
-        </article>
-      )
-    },
-    {
-      id: '6',
-      bookSection: 'Intro',
-      pageHeader: '',
-      htmlContent: (
-        <article id='Introduction'>
-          
           <h1>Release Section</h1>
           <p>This includes advice on how to best manage your release from hospital</p>
           <h1>Extras Section</h1>
@@ -211,6 +189,17 @@ const IntroData = {
             <li>Events Prior to Illness log</li>
             <li>Internet resources</li>
           </ul>
+        </article>
+      )
+    },
+    {
+      id: '6',
+      bookSection: 'Intro',
+      pageHeader: '',
+      htmlContent: (
+        <article id='Introduction'>
+          
+         
         </article>
       )
     }

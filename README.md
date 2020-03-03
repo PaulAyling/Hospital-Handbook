@@ -1,3 +1,23 @@
+ABOUT
+This is a print book written using react, HTML and CSS. USESI wanted to build worksheets into the design of the book so decided on using react. 
+
+It is pretty basic using JSON files to supply to tbook content and some html elements. 
+
+My Thought:
+If I use this again I will create different components for the tables and other sylistic elements rather thatn inject them via HTML. Although at the start of the project publishing ot mobi, epub or other ebook formats was not the intention subsequently I think it would have been usefull
+
+Future:
+If I repeast this project I will make all components on the page react components and import just txt and text formating as data files. I will also design the layout to be more programitic so it is reposnsive.
+
+Main Folders:
+layout: Main page layout components
+molecules: Helper components that work with layout components
+utility: utility css
+
+
+
+
+GITHUB DETAILS
 echo "# hhandbook" >> README.md
 git init
 git add README.md

@@ -8,7 +8,7 @@ export default function(props) {
   const pageStart = props.pageStart
   return (
     <Fragment>
-      <PageLeftDivider    pageStart={props.pageStart}/>
+
       <PageRight
       pageStart={parseInt(props.pageStart)+parseInt(bookData[0].id)}
         pageHeader=''
