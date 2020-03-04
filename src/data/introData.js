@@ -154,12 +154,7 @@ const IntroData = {
           <p className='text-subheading'>
             This is a one page per day diary, there is enough pages for
             30 days. It can be useful to gain perspective on your experience or
-            help if there are difficulties in treatment or diagnosis.
-          </p>
-          <h2 className='text-subheading'>Doctor Meeting Notes </h2>
-          <p className='text-subheading'>
-            Each day i the daily diary has a section for questions and answers for the doctor
-            meetings so you don’t forget them.
+            help if there are difficulties in treatment or diagnosis. For each day there is also a space for the Doctors meeting notes for questions and answers for the doctor.
           </p>
          
           

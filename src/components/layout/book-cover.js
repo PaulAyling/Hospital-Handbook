@@ -2,7 +2,6 @@ import React from 'react';
 
 export default function(props) {
   const bookData = props.bookData;
-  console.log("book-cover  "+JSON.stringify(bookData))
 
   return (
 

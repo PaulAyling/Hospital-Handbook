@@ -8,15 +8,21 @@ const DairyData = {
       htmlContent: (
         <section id='content'>
           <h1 class='section-header'>Diary </h1>
-          <h1>About Timeline Summary</h1>
+
           <p>
-          This is intended for you to summarise the main events to make it easier to communicate with staff about what has happened.
+            This contains everything you need to document your stay in hospital,
+            it contains the following sections;
           </p>
-          <h1>About the Daily Diary</h1>
-          <p>This section is a one page per day diary, there is enough pages for 30 days. It can be useful to gain perspective on your experience or help if there are difficulties in treatment or diagnosis.</p>
-          <h1>About doctor meetings in hospital</h1>
-          <p>
-          Doctors in Hospital are very busy so if you have  items you want to raise it can be helpful to prepare beforehand. You can use the "Doctor Meeting Notes" section to write down the questions and answers so you don’t forget them.
+          <h2 className='text-subheading'>Timeline Summary</h2>
+          <p className='text-subheading'>
+            Intended for you to summarise the main events during your illness to make it
+            easier to communicate with staff about what has happened.
+          </p>
+          <h2 className='text-subheading'>The Daily Diary</h2>
+          <p className='text-subheading'>
+            This is a one page per day diary, there is enough pages for
+            30 days. It can be useful to gain perspective on your experience or
+            help if there are difficulties in treatment or diagnosis. For each day there is also a space for the Doctors meeting notes for questions and answers for the doctor.
           </p>
           
 
@@ -28,8 +34,9 @@ const DairyData = {
       bookSection: 'Logs',
       pageHeader: 'EVENT TIMELINE',
       htmlContent: (
-        <section id='content'>
+        <section id='content'>     <h1>Timeline Summary</h1>
           <div class='timeline-table'>
+     
             <div class='timeline-column timeline-column-1'>
               <div class='timeline-header-row timeline-header-row-left'>
                 <h2>DATE</h2>
@@ -71,7 +78,7 @@ const DairyData = {
       bookSection: 'Diary',
       pageHeader: 'vdsvcxzvcxzvcxz',
       htmlContent: (
-        <section id='content'>
+        <section id='content'>     <h1>Timeline Summary</h1>
           <div class='timeline-table'>
             <div class='timeline-column  timeline-column-2'>
               <div class='timeline-header-row'>
@@ -102,7 +109,7 @@ const DairyData = {
       bookSection: 'Logs',
       pageHeader: 'EVENT TIMELINE',
       htmlContent: (
-        <section id='content'>
+        <section id='content'>    
           <div class='timeline-table'>
             <div class='timeline-column timeline-column-1'>
               <div class='timeline-header-row timeline-header-row-left'>
@@ -179,7 +186,7 @@ const DairyData = {
       bookSection: 'Diary',
       pageHeader: 'Daily Diary Notes',
       htmlContent: (
-        <section id='content' class='contents-table'>
+        <section id='content' class='contents-table'> <h1>Day by Day</h1>
           <div class='container-diary-content'>
             <header class='diary-header-container'>
               <div class='diary-header-label'>
