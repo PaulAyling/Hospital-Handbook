@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className='App'>
-       <Prequel bookData={prequel} />
+       {/* <Prequel bookData={prequel} />
       <Contents
         introSectionStart={introSectionStart}
         day1SectionStart={day1SectionStart}
@@ -55,12 +55,12 @@ function App() {
         extraSectionStart={extraSectionStart}
       />
       <Intro bookData={introData} pageStart={introSectionStart} />
-      <Day1 bookData={day1Data} pageStart={day1SectionStart} />
+      <Day1 bookData={day1Data} pageStart={day1SectionStart} /> */}
       <Diary bookData={diaryData} pageStart={diarySectionStart} />
-      <Diagnosis bookData={diagnosisData} pageStart={diagnosisSectionStart} />
+      {/* <Diagnosis bookData={diagnosisData} pageStart={diagnosisSectionStart} />
       <Release bookData={releaseData} pageStart={diagnosisSectionStart}/>  
       <Appendix bookData={extraData}      pageStart={extraSectionStart}/>
-      <BackCover   bookData={backCoverData}  />
+      <BackCover   bookData={backCoverData}  /> */}
     </div>
   );
 }
