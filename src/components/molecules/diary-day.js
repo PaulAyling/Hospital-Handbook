@@ -5,6 +5,7 @@ import PageRight from '../layout/page-right';
 export default function(props) {
   const bookData = props.bookData;
   const pageStart = props.pageStart;
+  const loop = props.loop;
 
   return (
     <Fragment>

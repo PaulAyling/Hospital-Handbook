@@ -37,30 +37,29 @@ function App() {
 
   /* Calculate the page numbers */
   const introSectionStart = 1;
-  const day1SectionStart = 4;
-  const diarySectionStart = 10;
-  const timelineSectionStart = 71;
-  const diagnosisSectionStart = 77;
-  const extraSectionStart = 89;
+  const day1SectionStart = 6;
+  const diarySectionStart = 14;
+  const diagnosisSectionStart = 80;
+  const releaseSectionStart = 90;
+  const extraSectionStart = 92;
 
   return (
     <div className='App'>
-       {/* <Prequel bookData={prequel} />
+       <Prequel bookData={prequel} />
       <Contents
         introSectionStart={introSectionStart}
         day1SectionStart={day1SectionStart}
         diarySectionStart={diarySectionStart}
-        timelineSectionStart={timelineSectionStart}
         diagnosisSectionStart={diagnosisSectionStart}
         extraSectionStart={extraSectionStart}
       />
       <Intro bookData={introData} pageStart={introSectionStart} />
-      <Day1 bookData={day1Data} pageStart={day1SectionStart} /> */}
+      <Day1 bookData={day1Data} pageStart={day1SectionStart} />
       <Diary bookData={diaryData} pageStart={diarySectionStart} />
-      {/* <Diagnosis bookData={diagnosisData} pageStart={diagnosisSectionStart} />
-      <Release bookData={releaseData} pageStart={diagnosisSectionStart}/>  
+      <Diagnosis bookData={diagnosisData} pageStart={diagnosisSectionStart} />
+      <Release bookData={releaseData} pageStart={releaseSectionStart}/>  
       <Appendix bookData={extraData}      pageStart={extraSectionStart}/>
-      <BackCover   bookData={backCoverData}  /> */}
+      <BackCover   bookData={backCoverData}  />
     </div>
   );
 }

@@ -352,7 +352,7 @@ const ExtraData = {
       )
     },
     {
-      id: '1',
+      id: '6',
       bookSection: 'Extra',
       pageHeader: 'Appendix',
       htmlContent: (
@@ -368,7 +368,7 @@ const ExtraData = {
       )
     },
     {
-      id: '1',
+      id: '7',
       bookSection: 'Extra',
       pageHeader: 'Appendix',
       htmlContent: (

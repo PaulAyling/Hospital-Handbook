@@ -262,7 +262,7 @@ const Day1Data = {
       )
     },
     {
-      id: '6',
+      id: '7',
       bookSection: 'Day1',
       pageHeader: 'Day1: Getting Help',
       pageName: 'sectionDivider',

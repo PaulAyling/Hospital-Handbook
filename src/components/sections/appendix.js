@@ -11,7 +11,7 @@ export default function(props) {
 <PageLeftDivider pageStart={pageStart}
       />
       <PageRight
-       pageStart={parseInt(pageStart)+parseInt(bookData[0].id)}
+       pageStart={parseInt(pageStart) + 1}
         header={bookData[0].pageHeader}
         htmlContent={bookData[0].htmlContent}
         bookSection={bookData[0].bookSection}
@@ -44,7 +44,7 @@ export default function(props) {
       />
      
        <PageLeft
-            pageStart={parseInt(props.pageStart)+parseInt(bookData[3].id)}
+            pageStart={parseInt(props.pageStart)+parseInt(bookData[5].id)}
         pageHeader={bookData[5].pageHeader}
         htmlContent={bookData[5].htmlContent}
         bookSection={bookData[5].bookSection}
