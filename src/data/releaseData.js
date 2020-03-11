@@ -52,7 +52,7 @@ const TimelineData = {
       pageName: 'sectionDivider',
       htmlContent: (
         <section id='content' class='contents-table'>
-          <h1>About After the Hospital Visit</h1>
+          <h1>About after your stay in Hospital</h1>
 
           <p>
             Depending on your current symptoms and network how you are going to
@@ -64,7 +64,9 @@ const TimelineData = {
             Usually on the day of your release you will have a meeting with a
             doctor. To help you with this is enclosed is a checklist, it may
             also be useful to have another person present in this meeting. Use a
-            diary page to write down important questions before the meeting.
+            diary page to write down important questions before the meeting. You
+            may or may not be told that this is going to happen so you will need
+            to be prepared for it.
           </p>
         </section>
       )
@@ -98,39 +100,37 @@ const TimelineData = {
       pageName: 'sectionDivider',
       htmlContent: (
         <section id='content' class='contents-table'>
-          <h1>The Release Meeting</h1>
-          <h1>Release Meeting Checklist</h1>
+          <h1>The Release Meeting Questions</h1>
+          <p><b>Some example questions below</b></p>
+          <p>
+            
+              If you can it is best to ensure your questions are written down
+              and then you attempt to write down the answers as you talk to the
+              doctor to ensure you don't forget.
+            
+          </p>
           <ul>
-            <li>You understand when you are scheduled for release</li>
-            <li>You have asked all your important questions</li>
             <li>The causes of symptoms are fully explained</li>
             <li>
-              Answers to all your questions are fully explained and understood.
+              Will I make a full recovery and what will the timeline look like?
             </li>
-          </ul>
-          <h1>Some example questions are below</h1>
-          <h1>Current Questions </h1>
-          <ul>
-            <li>What are the causes of my symptoms?</li>
-            <li>Is paperwork required for dismissal?</li>
-            <li>How long will it take to complete? </li>
-          </ul>
-
-          <h1>Questions about the Future</h1>
-          <ul>
-            <li>Will I make a full recovery?</li>
+            <li>What symptoms should I see improving first?</li>
             <li>
-              How long will it take and what symptoms should I see improving
-              first?
+              Are there any particular symptoms should I look for and what
+              should I do if I see them?
             </li>
-            <li>What symptoms may occur I should look out for?</li>
-            <li>
-              If those symptoms arise then should I seek a doctor or visit
-              hospital?
-            </li>
-            <li>Should I be on any special diet?</li>
             <li>What level of rest is required?</li>
             <li>Is there anything else I can do to improve recovery?</li>
+          </ul>
+          <ul>
+            <li>
+              Is there anything further you need to organize with your doctor -
+              such as follow up?
+            </li>
+            <li>What (if any) drugs you need to take and when</li>
+            <li>What (if any) any special precuations you need to take</li>
+
+  
           </ul>
         </section>
       )

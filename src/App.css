@@ -1,8 +1,17 @@
+/* There are 
+App.css : main css 
+utilityStyles.css : styles used for building app & testing
+section.css : styles that apply to sections
+layout.css : styles that apply to the layout
+
+*/
+
+
 .App {
   text-align: center;
-  width: 6in;
-  height: 9in;
-  padding: 30px;
+  border:2px black solid;
+  width:768px;
+  height:1024px;
 }
 
 body {
@@ -168,9 +177,9 @@ page {
   -moz-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   -o-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-  width: 6in;
-  min-height: 9in;
-  padding: 30px;
+
+  min-width:768px;
+  min-height:1024px;
 }
 
 .header {
@@ -223,8 +232,8 @@ main {
 
 
 .img-cover {
-  width: 6in;
-  height: 9in;
+  width:768px;
+  height:1024px;
 }
 
 .page-content{

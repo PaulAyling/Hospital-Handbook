@@ -55,6 +55,9 @@
 .pd-4 {
   padding: 4px;
 }
+.bdr-top{
+  border-top:2px solid black;
+}
 /* Colors */
 .gray {
   background: lightgray;

@@ -3,6 +3,7 @@ import './App.css';
 import './components/layout/layouts.css';
 import './components/sections/section.css';
 import './utilities/utilityStyles.css';
+import './textFormatting.css';
 
 import PrequelData from './data/prequelData';
 import IntroData from '../src/data/introData';

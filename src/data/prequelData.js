@@ -35,7 +35,7 @@ const PrequelData = {
       pageHeader: 'Introduction',
       htmlContent: (
         <section id='content'>
-          <h1 class='section-header'>The Hospital Handbook</h1>
+          <h1>The Hospital Handbook</h1>
           <p class='section-intro-text'>
             by Paul Ayling
           </p>

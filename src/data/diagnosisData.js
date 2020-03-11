@@ -72,105 +72,85 @@ const DiagnosisData = {
           </div>
           <article className=' container-flex-row '>
             <div className='container-flex-column '>
-              <div className='text-sm  gray cause-header '>
-                First possible cause which was suggested by
-                __________________________ on the _______________ .
+              <div className='text-sm bdr-top cause-header '>
+                Possible cause suggested by
+                ______________________________________ on the _______________ .
               </div>
 
               <div className='h-1p5rem bdr-bottom'></div>
               <div className='h-2rem bdr-bottom'></div>
+              <div className='cause-header bdr-bottom  text-sm  gray'>Cause disproven?   
+                ____________ how?______________________________________________________ .</div>
             </div>
           </article>
           <article className=' container-flex-row '>
             <div className='container-flex-column '>
-              <div className='text-sm  gray cause-header '>
-                First possible cause which was suggested by
-                __________________________ on the _______________ .
+              <div className='text-sm bdr-top cause-header '>
+                Possible cause suggested by
+                ______________________________________ on the _______________ .
               </div>
 
               <div className='h-1p5rem bdr-bottom'></div>
               <div className='h-2rem bdr-bottom'></div>
+              <div className='cause-header bdr-bottom  text-sm  gray'>Cause disproven?   
+                ____________ how?______________________________________________________ .</div>
             </div>
           </article>
           <article className=' container-flex-row '>
             <div className='container-flex-column '>
-              <div className='text-sm  gray cause-header '>
-                First possible cause which was suggested by
-                __________________________ on the _______________ .
-              </div>
-
-              <div className='h-1p5rem bdr-bottom'></div>
-              <div className='h-1p5rem bdr-bottom'></div>
-            </div>
-          </article>
-          <div
-            id='Diagnosis-Box'
-            className='container-flex-row border-top-gray-thick'>
-            <div className='diagnosisBox-side-image '></div>
-            <div className='container-flex-column-noWidth width4 '>
-              <div className='container-symptom-box gray'>
-                {/* Article */}
-                <article className=' container-flex-row '>
-                  <div className='container-flex-column pd-4'>
-                    <div className='symptom-header'>
-                      <strong>Symptom:</strong>
-                    </div>
-
-                    <div className='h-1rem'></div>
-                    <div className='container-flex-col'>
-                      <div className='symptom-info-header '>Date:</div>
-                      <div className='symptom-info width75 text-white'>
-                        white txt
-                      </div>
-                    </div>
-                  </div>
-                  <div className=''></div>
-                </article>
-              </div>
-            </div>
-            <div className='width-c3 '>
-              <div className='container-flex-column'>
-                <div className='h-1p5rem width1 bdr-bottom'></div>
-
-                <div className='h-1p5rem bdr-bottom'></div>
-                <div className='h-1p5rem bdr-bottom'></div>
-                <div className='h-1p5rem bdr-bottom'></div>
-              </div>
-            </div>
-          </div>
-          <article className=' container-flex-row '>
-            <div className='container-flex-column '>
-              <div className='text-sm  gray cause-header '>
-                First possible cause which was suggested by
-                __________________________ on the _______________ .
+              <div className='text-sm bdr-top cause-header '>
+                Possible cause suggested by
+                ______________________________________ on the _______________ .
               </div>
 
               <div className='h-1p5rem bdr-bottom'></div>
               <div className='h-2rem bdr-bottom'></div>
+              <div className='cause-header bdr-bottom  text-sm  gray'>Cause disproven?   
+                ____________ how?______________________________________________________ .</div>
             </div>
           </article>
           <article className=' container-flex-row '>
             <div className='container-flex-column '>
-              <div className='text-sm  gray cause-header '>
-                First possible cause which was suggested by
-                __________________________ on the _______________ .
+              <div className='text-sm bdr-top cause-header '>
+                Possible cause suggested by
+                ______________________________________ on the _______________ .
               </div>
 
               <div className='h-1p5rem bdr-bottom'></div>
               <div className='h-2rem bdr-bottom'></div>
+              <div className='cause-header bdr-bottom  text-sm  gray'>Cause disproven?   
+                ____________ how?______________________________________________________ .</div>
             </div>
           </article>
           <article className=' container-flex-row '>
             <div className='container-flex-column '>
-              <div className='text-sm  gray cause-header '>
-                First possible cause which was suggested by
-                __________________________ on the _______________ .
+              <div className='text-sm bdr-top cause-header '>
+                Possible cause suggested by
+                ______________________________________ on the _______________ .
               </div>
 
               <div className='h-1p5rem bdr-bottom'></div>
               <div className='h-2rem bdr-bottom'></div>
+              <div className='cause-header bdr-bottom  text-sm  gray'>Cause disproven?   
+                ____________ how?______________________________________________________ .</div>
             </div>
           </article>
+          <article className=' container-flex-row '>
+            <div className='container-flex-column '>
+              <div className='text-sm bdr-top cause-header '>
+                Possible cause suggested by
+                ______________________________________ on the _______________ .
+              </div>
+
+              <div className='h-1p5rem bdr-bottom'></div>
+              <div className='h-2rem bdr-bottom'></div>
+              <div className='cause-header bdr-bottom  text-sm  gray'>Cause disproven?   
+                ____________ how?______________________________________________________ .</div>
+            </div>
+          </article>
+          
+          
+          
         </section>
       )
     }
