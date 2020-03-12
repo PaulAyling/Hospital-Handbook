@@ -64,6 +64,12 @@ console.log(dayByDayPageOffset)
         htmlContent={bookData[2].htmlContent}
         bookSection={bookData[2].bookSection}
       />
+      <Page
+        pageStart={parseInt(pageStart) + parseInt(bookData[3].id)}
+        pageHeader={bookData[3].pageHeader}
+        htmlContent={bookData[3].htmlContent}
+        bookSection={bookData[3].bookSection}
+      />
      
      
       

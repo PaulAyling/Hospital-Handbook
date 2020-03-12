@@ -62,6 +62,9 @@
 .gray {
   background: lightgray;
 }
+.dark-gray {
+  background: gray;
+}
 .border-top-gray-thick{
     border-top: gray solid 5px;
 }
@@ -80,6 +83,9 @@
 }
 .border-bottom {
   border-bottom: solid lightgray 1px;
+}
+.border-bottom-gray {
+  border-bottom: solid gray 1px;
 }
 .border-bottom-strong {
   border-bottom: solid black 5px;
@@ -154,67 +160,18 @@
 
 /* Tables */
 
-/* TIMELINE  */
-h2{
-  color:white;
-  font-family:arial;
-}
-
-.timeline-table{
-  display:flex;
-  flex-direction:row;
-    
-}
-.timeline-column{
-
-}
-.timeline-column-1{
-  width:2in;
-  
-}
-.timeline-column-2{
-  width:100%;
-  
-}
-.timeline-column-3{
-  
-}
-.timeline-column-4{
-  
-}
-.timeline-header-row{
-  background:gray;
-  height:3rem;
-  padding:0.5rem;
-  margin-right:3px;
-}
-.timeline-header-row-left{
-  border-radius:20px 0px 0px 0px ;
-}
-.timeline-header-row-right{
-  border-radius:0px 20px 0px 0px ;
-}
-.timeline-row{
-  border-bottom:dotted lightgray 1px;
-  height:3rem;
-  margin-right:3px;
-  border-right:solid gray 1px;
-  border-left:solid gray 1px;
-}
-.timeline-row-section{
-  border-bottom:solid black 1px;
-  height:3rem;
-  margin-right:3px;
-  border-right:solid gray 1px;
-  border-left:solid gray 1px;
-}
 
 
 /* MADE GENERIC
 /* TIMELINE  */
-.table{
+.table-flex-row{
   display:flex;
   flex-direction:row;
+    
+}
+.table-flex-col{
+  display:flex;
+  flex-direction:column;
     
 }
 h2{
@@ -230,17 +187,16 @@ h2{
   width:100%;
   
 }
-.column-3{
-  
-}
-.column-4{
-  
-}
 .table-header-row > h2, .table-header-row-left> h2{
   padding-left:1rem;
+  
 }
+.table-header-single{
+  border-radius:20px 20px 0px 0px ;
+  border:solid black 1px;
+}
+
 .table-header-row{
-  background:gray;
   height:3rem;
   padding:0.5rem;
   margin-right:3px;
@@ -251,16 +207,17 @@ h2{
 .table-header-row-right{
   border-radius:0px 20px 0px 0px ;
 }
+
 .table-row{
   border-bottom:dotted lightgray 1px;
-  height:3rem;
+  height:4.5rem;
   margin-right:3px;
   border-right:solid gray 1px;
   border-left:solid gray 1px;
 }
 .table-row-section{
   border-bottom:solid black 1px;
-  height:3rem;
+  height:4.5rem;
   margin-right:3px;
   border-right:solid gray 1px;
   border-left:solid gray 1px;
