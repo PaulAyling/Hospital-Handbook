@@ -9,13 +9,46 @@ layout.css : styles that apply to the layout
 
 .App {
   text-align: center;
-  border:2px black solid;
   width:768px;
   height:1024px;
 }
 
 body {
   background: rgb(204, 204, 204);
+}
+.page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  -webkit-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  min-width:768px;
+  min-height:1024px;
+  max-width:768px;
+  max-height:1024px;
+}
+.text-area{
+  padding: 3rem 3rem 3rem 3rem;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-between;
+  width:100%;
+}
+.cover-page{
+  background: white;
+  display: block;
+  margin: 0 auto;
+  
+  -webkit-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+  min-width:768px;
+  min-height:1024px;
+  max-width:768px;
+  max-height:1024px;
 }
 p{
   font-size:1.3rem;
@@ -33,15 +66,7 @@ p {
 h2{
   margin-bottom:0.2rem;
 }
-.text-align-right{
-  text-align: right
-}
-.text-subheading{
-  color:black;
-  font-size:1.2rem;
-  margin-left:1rem;
-  padding-bottom:0;
-}
+
 li{
   text-align: left;
   font-size: 1.2rem;
@@ -168,19 +193,7 @@ footer{
 }
 
 /*  PAGE STRUCTURE  */
-page {
-  background: white;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 0.5cm;
-  -webkit-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
 
-  min-width:768px;
-  min-height:1024px;
-}
 
 .header {
   text-align: center;
@@ -399,49 +412,7 @@ height: 4rem;
   width:25%;
 }
 
-/* TIMELINE  */
-h2{
-  color:white;
-  font-family:arial;
-}
 
-.timeline-table{
-  display:flex;
-  flex-direction:row;
-    
-}
-.timeline-column{
-
-}
-.timeline-column-1{
-  width:2in;
-  
-}
-.timeline-column-2{
-  width:100%;
-  
-}
-.timeline-column-3{
-  
-}
-.timeline-column-4{
-  
-}
-.timeline-header-row{
-  background:gray;
-  height:3rem;
-  padding:0.5rem;
-  margin-right:3px;
-}
-.timeline-header-row-left{
-  border-radius:20px 0px 0px 0px ;
-}
-.timeline-row{
-  border-bottom:dotted black 1px;
-  height:3rem;
-  margin-right:3px;
-  border-right:solid gray 1px;
-}
 
 /* DIARY */
 .container-diary-content {

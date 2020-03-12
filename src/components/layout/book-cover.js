@@ -5,16 +5,15 @@ export default function(props) {
 
   return (
 
-    <page size="FictionBook" class="page">
-      <section id="content">
-        <div class="container-img">
+      <section id='cover'>
+        <div class='cover-page'>
           <img
-          class="img-cover"
-          src={bookData[0].image}
-          alt="Hospital Handbook Cover33"
-        />
+            class='img-cover'
+            src={bookData[0].image}
+            alt='Hospital Handbook Cover33'
+          />
         </div>
       </section>
-    </page>     
+
   );
 }

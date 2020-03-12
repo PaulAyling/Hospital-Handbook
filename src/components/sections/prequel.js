@@ -9,7 +9,7 @@ export default function(props) {
   return (
     <Fragment>
       <BookCover bookData={bookData} />
-      <PageLeftDivider />
+      {/* <PageLeftDivider />
 
       <PageLeft
         pageHeader=''
@@ -22,7 +22,7 @@ export default function(props) {
         pageNumber={bookData[3].id}
         htmlContent={bookData[3].htmlContent}
         bookSection={bookData[3].bookSection}
-      />
+      /> */}
     </Fragment>
   );
 }

@@ -81,11 +81,18 @@
 .border-bottom {
   border-bottom: solid lightgray 1px;
 }
+.border-bottom-strong {
+  border-bottom: solid black 5px;
+}
 
 .margin-bottom3px{
   margin-bottom:5px;
 }
 
+
+.mgn-top{
+  margin-top:3rem;
+}
 /* TEXT */
 .text-sm {
   font-size: 0.7rem;
@@ -139,18 +146,122 @@
   border-radius: 12px 0 0 0;
 }
 
-.row-header-text {
-  color: black;
-  margin: 6px;
-  font-size: 1rem;
-  padding: 3px;
-}
 .row-empty {
   max-height: 1rem;
 
   width: 100%;
 }
 
+/* Tables */
 
-/* Page Specific Grid Items */
-/* Syptoms */
+/* TIMELINE  */
+h2{
+  color:white;
+  font-family:arial;
+}
+
+.timeline-table{
+  display:flex;
+  flex-direction:row;
+    
+}
+.timeline-column{
+
+}
+.timeline-column-1{
+  width:2in;
+  
+}
+.timeline-column-2{
+  width:100%;
+  
+}
+.timeline-column-3{
+  
+}
+.timeline-column-4{
+  
+}
+.timeline-header-row{
+  background:gray;
+  height:3rem;
+  padding:0.5rem;
+  margin-right:3px;
+}
+.timeline-header-row-left{
+  border-radius:20px 0px 0px 0px ;
+}
+.timeline-header-row-right{
+  border-radius:0px 20px 0px 0px ;
+}
+.timeline-row{
+  border-bottom:dotted lightgray 1px;
+  height:3rem;
+  margin-right:3px;
+  border-right:solid gray 1px;
+  border-left:solid gray 1px;
+}
+.timeline-row-section{
+  border-bottom:solid black 1px;
+  height:3rem;
+  margin-right:3px;
+  border-right:solid gray 1px;
+  border-left:solid gray 1px;
+}
+
+
+/* MADE GENERIC
+/* TIMELINE  */
+.table{
+  display:flex;
+  flex-direction:row;
+    
+}
+h2{
+  color:white;
+  font-family:arial;
+}
+
+.table-column-1{
+  width:2in;
+  
+}
+.table-column-2{
+  width:100%;
+  
+}
+.column-3{
+  
+}
+.column-4{
+  
+}
+.table-header-row > h2, .table-header-row-left> h2{
+  padding-left:1rem;
+}
+.table-header-row{
+  background:gray;
+  height:3rem;
+  padding:0.5rem;
+  margin-right:3px;
+}
+.table-header-row-left{
+  border-radius:20px 0px 0px 0px ;
+}
+.table-header-row-right{
+  border-radius:0px 20px 0px 0px ;
+}
+.table-row{
+  border-bottom:dotted lightgray 1px;
+  height:3rem;
+  margin-right:3px;
+  border-right:solid gray 1px;
+  border-left:solid gray 1px;
+}
+.table-row-section{
+  border-bottom:solid black 1px;
+  height:3rem;
+  margin-right:3px;
+  border-right:solid gray 1px;
+  border-left:solid gray 1px;
+}

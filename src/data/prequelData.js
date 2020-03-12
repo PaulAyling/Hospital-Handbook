@@ -6,8 +6,8 @@ const PrequelData = {
       bookSection: 'cover',
       pageHeader: 'front',
       htmlContent:
-        'http://paulayling.me/wp-content/uploads/2019/02/HospitalHandbook-cover.png',
-      image: 'http://paulayling.me/wp-content/uploads/2019/02/HospitalHandbook-cover.png', 
+        'http://paulayling.me/wp-content/uploads/2019/02/hHandbookCover.png',
+      image: 'http://paulayling.me/wp-content/uploads/2019/02/hHandbookCover.png', 
       definePrototypes: '',
       exportComponent: 'export default App;'
     },  

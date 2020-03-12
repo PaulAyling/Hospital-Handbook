@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import PageLeft from '../layout/page-left';
-import PageRight from '../layout/page-right';
+import Page from '../layout/page';
 import PageLeftDivider from '../layout/page-leftDivider';
 import DiaryByDay from '../molecules/diary-day';
 
@@ -27,39 +27,48 @@ console.log(dayByDayPageOffset)
   const dayByDayPages = myLoop(30, dayByDayPageOffset);
   const dayByDayReturn = (
     <Fragment>
-      <PageLeftDivider pageStart={pageStart} />
-      <PageRight
+      <Page
         pageStart={parseInt(pageStart) + parseInt(bookData[0].id)}
         header={bookData[0].pageHeader}
         htmlContent={bookData[0].htmlContent}
         bookSection={bookData[0].bookSection}
       />
-      <PageLeft
+      <Page
         pageStart={parseInt(pageStart) + parseInt(bookData[1].id)}
         pageHeader={bookData[1].pageHeader}
         htmlContent={bookData[1].htmlContent}
         bookSection={bookData[1].bookSection}
       />
-      <PageRight
+      <Page
+        pageStart={parseInt(pageStart) + parseInt(bookData[1].id)}
+        pageHeader={bookData[1].pageHeader}
+        htmlContent={bookData[1].htmlContent}
+        bookSection={bookData[1].bookSection}
+      />
+      <Page
+        pageStart={parseInt(pageStart) + parseInt(bookData[1].id)}
+        pageHeader={bookData[1].pageHeader}
+        htmlContent={bookData[1].htmlContent}
+        bookSection={bookData[1].bookSection}
+      />
+      <Page
+        pageStart={parseInt(pageStart) + parseInt(bookData[1].id)}
+        pageHeader={bookData[1].pageHeader}
+        htmlContent={bookData[1].htmlContent}
+        bookSection={bookData[1].bookSection}
+      />
+     
+      <Page
         pageStart={parseInt(pageStart) + parseInt(bookData[2].id)}
-        header={bookData[2].pageHeader}
+        pageHeader={bookData[2].pageHeader}
         htmlContent={bookData[2].htmlContent}
         bookSection={bookData[2].bookSection}
       />
-      <PageLeft
-        pageStart={parseInt(pageStart) + parseInt(bookData[3].id)}
-        pageHeader={bookData[3].pageHeader + ' Page 2'}
-        htmlContent={bookData[3].htmlContent}
-        bookSection={bookData[3].bookSection}
-      />
-      <PageRight
-        pageStart={parseInt(pageStart) + parseInt(bookData[4].id)}
-        header={bookData[4].pageHeader}
-        htmlContent={bookData[4].htmlContent}
-        bookSection={bookData[4].bookSection}
-      />
+     
+     
+      
       {/* Input Diary pages here */}
-      {dayByDayPages}
+      {/* {dayByDayPages} */}
     </Fragment>
   );
   return dayByDayReturn;

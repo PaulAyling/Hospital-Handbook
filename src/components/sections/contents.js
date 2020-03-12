@@ -12,16 +12,14 @@ export default function(props) {
 
   return (
     <Fragment>
-      <PageLeftDivider 
-      />
       <page class='page'>
-        <div class='page-container-left'>
+        <div class=' text-area'>
           <div class='main-content'>
-            <h1>Contents</h1>
+            <p className="contents-heading">Contents</p>
             <section id='content' className='container-contents'>
               <article className='row-2 contents-row'>
                 <div className='contents-item'>
-                  <h1>Introduction</h1>
+                  <p className="subHeading2">Introduction</p>
                 </div>
                 <div className='contents-item'>
                   <p className='textalign-right'>1</p>
@@ -29,7 +27,7 @@ export default function(props) {
               </article>
               <article className='row-2 contents-row'>
                 <div className='contents-item'>
-                  <h1>Quick things to do on Day 1</h1>
+                <p className="subHeading2">Things to do now</p>
                 </div>
                 <div className='contents-item'>
                   <p className='textalign-right'>{day1SectionStart}</p>
@@ -37,7 +35,7 @@ export default function(props) {
               </article>
               <article className='row-2 contents-row'>
                 <div className='contents-item'>
-                  <h1>Your Diary</h1>
+                <p className="subHeading2">Diary Log</p>
                 </div>
                 <div className='contents-item'>
                   <p className='textalign-right'>{diarySectionStart}</p>
@@ -45,7 +43,7 @@ export default function(props) {
               </article>
               <article className='row-2 contents-row'>
                 <div className='contents-item'>
-                  <h1>Diagnosis</h1>
+                <p className="subHeading2">Diagnosis Log</p>
                 </div>
                 <div className='contents-item'>
                   <p className='textalign-right'>{diagnosisSectionStart}</p>
@@ -53,7 +51,7 @@ export default function(props) {
               </article>
               <article className='row-2 contents-row'>
                 <div className='contents-item'>
-                  <h1>Hospital Release</h1>
+                <p className="subHeading2">Hospital Release Checklist</p>
                 </div>
                 <div className='contents-item'>
                   <p className='textalign-right'>{diagnosisSectionStart}</p>
@@ -61,7 +59,7 @@ export default function(props) {
               </article>
               <article className='row-2 contents-row'>
                 <div className='contents-item'>
-                  <h1>Extras</h1>
+                <p className="subHeading2">Extras</p>
                 </div>
                 <div className='contents-item'>
                   <p className='textalign-right'>{extraSectionStart}</p>
