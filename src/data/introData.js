@@ -7,9 +7,21 @@ const IntroData = {
       pageType: 'SectionIntroduction',
       pageHeader: 'Introduction',
       htmlContent: (
-        <section id='content'>
-          <h1>Section 1</h1>
-          <p class='section-intro-text'>About</p>
+        <section id='content' className='container-flex-column-spacebetween'>
+          <div>
+            {' '}
+            <h1>Section 1</h1>
+            <p class='section-intro-text'></p>
+          </div>
+          <div>
+            <img
+              class=''
+              src={
+                'http://paulayling.me/wp-content/uploads/2019/02/hhandbook-Section-Divider.jpg'
+              }
+              alt='Hospital Handbook Cover33'
+            />
+          </div>
         </section>
       )
     },
@@ -120,8 +132,8 @@ const IntroData = {
       pageHeader: '',
       htmlContent: (
         <article id='Introduction'>
-         <p class='subHeading2'>Start Section</p>
-          
+          <p class='subHeading2'>Start Section</p>
+
           <p>This contains;</p>
           <ul>
             <li>Some handy items to make your stay easier.</li>
@@ -133,7 +145,7 @@ const IntroData = {
               meetings.
             </li>
           </ul>
-          <p className="subHeading2">Diary Section</p>
+          <p className='subHeading2'>Diary Section</p>
           <p>
             This contains everything you need to document your stay in hospital,
             it contains the following sections;

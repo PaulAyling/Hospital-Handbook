@@ -2,6 +2,8 @@ import React, { Fragment } from 'react';
 import PageLeft from '../layout/page-left';
 import PageRight from '../layout/page-right';
 import Page from '../layout/page';
+import Section from '../layout/section';
+import BookCover from '../layout/book-cover';
 import PageLeftDivider from '../layout/page-leftDivider';
 
 export default function(props) {
@@ -9,9 +11,7 @@ export default function(props) {
   const pageStart = props.pageStart;
   return (
     <Fragment>
-      
-
-      <Page
+      <Section
         pageStart={pageStart}
         header={bookData[0].pageHeader}
         htmlContent={bookData[0].htmlContent}

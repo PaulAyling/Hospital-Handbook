@@ -138,16 +138,23 @@ li{
     justify-content:space-between;
     width:100%;
   }
-  
+ .container-flex-column {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+} 
+ .container-flex-column-spacebetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  min-height:100%;
+} 
 .container-flex-column-noWidth {
   display: flex;
   flex-direction: column;
 }
-.container-flex-column {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
+
 
 /* reusable Components */
 .row-header-left,
