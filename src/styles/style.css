@@ -1,0 +1,335 @@
+body {
+	background: rgb(204,204,204);
+}
+a, h1,h2, p {
+  font-family:Arial, Helvetica, sans-serif;
+}
+.text{
+  font-size:1.5rem;
+}
+
+/* UTILITIES */
+.rotate {
+  transform: rotate(90deg);
+  /* Legacy vendor prefixes that you probably don't need... */
+  /* Safari */
+  -webkit-transform: rotate(90deg);
+  /* Firefox */
+  -moz-transform: rotate(90deg);
+  /* IE */
+  -ms-transform: rotate(90deg);
+  /* Opera */
+  -o-transform: rotate(90deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.page{
+  display:flex;
+  flex-direction:row;
+}
+/* PAGE STRUCTURE V2 */
+.page-container-left{
+  display:flex;
+  flex-direction:column;
+  width:90%;
+  margin-left:1rem;
+
+}
+header{
+  align-items: center;
+  justify-content: center;
+}
+.page-header {
+  justify-content: center;
+  margin:0;
+  align-items: center;
+  width:100%;
+}
+.page-header h1{
+  text-align: center;
+  margin:10px 0;
+  
+}
+.main-content{
+
+  height:90%;
+
+}
+
+
+.page-container-right{
+  width:10%;
+
+
+}
+
+/*  PAGE STRUCTURE  */
+page {
+	background: white;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.5cm;
+	-webkit-box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+	-o-box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+	box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="FictionBook"] {
+	width: 6in;
+  height: 9in;
+  padding:30px;
+}
+.header{
+  text-align: center;
+  padding-top:10px;
+}
+footer p {
+  text-align: center;
+}
+
+
+main{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-right:10px;
+}
+
+.tabs{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  height:93%;
+  margin-top:10px;
+  
+}
+.tab{
+  width:1.3in;
+  margin:40px 0px 0px -35px;
+  border-radius: 5px 5px 5px 5px;
+  border: black 3px solid;
+
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+
+}
+.tab > p{
+  margin:0;
+  padding:10px;
+}
+
+.active {
+  background:gray;
+  color:white;
+  border: gray 3px solid;
+}
+
+/* COVER */
+
+.img-cover{
+  width:6in;
+  height:9in;
+}
+
+/* CONTENTS PAGE */
+.contents-table{
+  display:flex;
+  flex-direction:column;
+}
+.content-row{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between
+}
+.content-row-left{
+
+  width:40px;
+
+}
+.content-row-middle{
+
+
+}
+
+
+
+
+/*  SYMPTOMS BOX */
+
+.symptom-container{
+  display:flex;
+  flex-direction:row;
+  margin-bottom:10px;
+ 
+}
+.symptom-box{
+  display:flex;
+  flex-direction:row;
+  border:solid black 2px;
+  height:1.8in;
+  width:4.5in;
+  border-radius:15px;
+}
+
+row{
+  display:flex;
+  flex-direction:row;
+  width:4.5in;
+  height:0.4in;
+  border-bottom:solid black 1px;
+  padding:0px;
+}
+
+.circle{
+  background:gray;
+  border-radius: 50%;
+  width:0.5in;
+  height:0.5in;
+  margin:10px;
+  align-self: center;
+}
+.circle > h2{
+  color:white;
+  padding:12px;
+  font-size: 20px;
+
+  margin:0;
+}
+
+.header-section{
+  height:0.5in;
+}
+.label{
+  border-radius:15px 0px 0px 0px;
+
+
+}
+  .label, .label-details > p{
+    text-transform: uppercase;
+    text-align: right;
+    margin:0;
+    font-weight: 700;
+    color:white;
+    padding-top:3px;
+  }
+  .label-details, .label{
+    width:1in;
+    padding-right:10px;
+    padding-top:5px;
+    background:gray;
+    
+  }
+.content{
+  border-bottom:solid black 1px;
+}
+/* UNUSUAL ITEMS */
+.unusual-header-label{
+  background: gray;
+  color:white;
+  border-radius:10px 10px 0px 0px ; 
+  width:100%;
+  height:100%;
+
+
+  
+}
+.unusual-header-label > h2{
+  margin:10px;
+
+  
+}
+
+/*  BODY IMAGE PAGE   */
+.container-img{
+ 
+}
+
+.body-header{
+  justify-content: center;
+  margin:0;
+}
+.body-header > h1{
+  text-align: center;
+}
+
+.img-body{
+  padding:0 0 0 30px;
+  margin:0;
+  height:7in;
+
+}
+
+/* DIARY  */
+.container-diary-content{
+  border:solid 4px black;
+  height:8in;
+  border-radius:15px;
+}
+.diary-header-container{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width:100%;
+  border-radius:15px 0 0 0;
+  border-bottom:6px solid black;
+  height:4rem;
+}
+.diary-header-label{
+  background:gray;
+  padding:0 10px 0 10px;
+  border-radius:10px 0 0 0;
+  height:4rem;
+}
+.diary-header{
+  padding:0 10px 0 10px;
+}
+.lined-row{
+  border-bottom:1px black solid;
+  width:100%;
+  height:4rem;
+}
+
+/* MEETING */
+.container-meeting{
+  margin-top:2rem;
+}
+.meeting-header-container{
+  background:gray;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  width:100%;
+  border-radius:10px 10px 0px 0px;
+  border-bottom:4px solid black;
+  height:4rem;
+}
+.meeting-header-label > h1{
+  text-align: center;
+  padding:10px;
+  color:white;
+
+}
+
+/* DIAGNOSIS  */
+.diagnosis-label-top{
+  background:gray;
+  width:1.7in;
+  height:100%;
+border-radius:10px 0 0 0;
+  color:white;
+}
+.diagnosis-label{
+  background:gray;
+  width:1.7in;
+  height:100%;
+  color:white;
+}
+.diagnosis-label-top >h1,
+.diagnosis-label >h1 {
+  margin:0px;
+  padding:10px;
+  text-align: right;
+  
+}

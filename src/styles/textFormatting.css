@@ -1,0 +1,115 @@
+p {
+  font-size: 1.5rem;
+}
+li {
+  font-size: 1.7rem;
+  
+}
+
+/* HEADINGS */
+/* chapter header */
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+/* Page Header */
+h2 {
+}
+/* Contents Header */
+h2.contents-heading {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+/* section Header */
+
+h3.contents-item {
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  margin-top:1rem;
+  padding:0;
+  font-weight: 600;
+  text-align: right;
+}
+hr {
+  border:1px solid lightgray;
+}
+h3.contents-page-number {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+h4.contents-item , h4.contents-page-number {
+  font-size: 1.7rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0rem;
+  font-weight: 600;
+}
+h4.contents-item {
+  margin-left:0rem;
+}
+h5.contents-item , h5.contents-page-number {
+  font-size: 1.7rem;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-weight: 400;
+}
+h5.contents-item {
+  margin-left:1rem;
+}
+
+h3 > .in-text-sub-header-indented {
+}
+
+h4.in-text-sub-header{
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-left:5rem;
+}
+
+
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.chapter-sub-text {
+  text-align: center;
+}
+
+.pageHeading {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.subHeading2 {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.subHeading3 {
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+  margin-left: 1rem;
+  color: black;
+}
+
+.subHeading3-text {
+  color: black;
+  margin-left: 1rem;
+  padding-bottom: 0;
+}
+.text-align-right {
+  text-align: right;
+}
+
+.row-header-text {
+  color: black;
+  margin: 6px;
+  padding: 3px;
+}
+.table-text {
+  padding: 2rem 1rem 1rem 1rem;
+}

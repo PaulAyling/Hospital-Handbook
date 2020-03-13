@@ -58,6 +58,9 @@
 .bdr-top{
   border-top:2px solid black;
 }
+.bdr-bottom-gray{
+  border-bottom:gray dotted 1px
+}
 /* Colors */
 .gray {
   background: lightgray;
@@ -122,15 +125,20 @@
   min-height: 8in;
   border-radius: 3px;
 }
-
-
-/* Flexbox Specific */
-.container-flex-row {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content:flex-start;
-}
+li{
+  list-style: none;
+  }
+  .container-table{
+    width:700px;
+    border:solid blue 3px;
+  }
+  .container-flex-row{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:100%;
+  }
+  
 .container-flex-column-noWidth {
   display: flex;
   flex-direction: column;
@@ -174,10 +182,7 @@
   flex-direction:column;
     
 }
-h2{
-  color:white;
-  font-family:arial;
-}
+
 
 .table-column-1{
   width:2in;

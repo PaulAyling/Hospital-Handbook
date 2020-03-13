@@ -8,8 +8,8 @@ const IntroData = {
       pageHeader: 'Introduction',
       htmlContent: (
         <section id='content'>
-          <h1>Introduction</h1>
-          <p class='section-intro-text'>Being sick can be a lot to manage!</p>
+          <h1>Section 1</h1>
+          <p class='section-intro-text'>About</p>
         </section>
       )
     },
